@@ -90,7 +90,8 @@ jobs:
             
             # Create and push tag
             git tag "$VERSION"
-            git push && git push --tags
+            # Explicitly push to main branch and push tags
+            git push origin HEAD:main && git push origin --tags
           else
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
