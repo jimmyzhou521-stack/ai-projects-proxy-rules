@@ -56,7 +56,22 @@ jobs:
       
       - name: Compile sing-box SRS
         run: |
+          echo "📂 Checking rules directory before compilation:"
+          ls -lh rules/
+          
+          echo "🔨 Compiling sing-box SRS..."
+          # 先删除旧文件以确保重新生成
+          rm -f rules/sing-box.srs
+          
           sing-box rule-set compile --output rules/sing-box.srs rules/sing-box.json
+          
+          echo "📂 Checking rules directory after compilation:"
+          ls -lh rules/
+          
+          if [ ! -f rules/sing-box.srs ]; then
+            echo "❌ Error: sing-box.srs was not generated!"
+            exit 1
+          fi
       
       - name: Commit and push changes
         id: git_commit
