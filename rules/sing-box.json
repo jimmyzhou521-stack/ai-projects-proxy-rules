@@ -2,7 +2,6 @@
   "version": 2,
   "rules": [
     {
-      "outbound": "proxy",
       "domain": [
         "ai.google.dev",
         "alkalimakersuite-pa.clients6.google.com",
@@ -808,8 +807,7 @@
         "24.199.123.28/32",
         "64.23.132.171/32",
         "74.125.0.0/16"
-      ],
-      "outbound": "proxy"
+      ]
     }
   ]
 }
