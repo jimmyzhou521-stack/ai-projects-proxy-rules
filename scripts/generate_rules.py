@@ -184,7 +184,7 @@ def generate_singbox_rules(rules: dict, output_file: str):
     
     # 添加域名规则
     if rules.get('domains') or rules.get('domain_suffixes') or rules.get('domain_keywords'):
-        domain_rule = {"outbound": "proxy"}
+        domain_rule = {}
         if rules.get('domains'):
             domain_rule["domain"] = rules['domains']
         if rules.get('domain_suffixes'):
@@ -196,8 +196,7 @@ def generate_singbox_rules(rules: dict, output_file: str):
     # 添加IP规则
     if rules.get('ip_cidrs'):
         rule_set["rules"].append({
-            "ip_cidr": rules['ip_cidrs'],
-            "outbound": "proxy"
+            "ip_cidr": rules['ip_cidrs']
         })
     
     with open(output_file, 'w', encoding='utf-8') as f:
