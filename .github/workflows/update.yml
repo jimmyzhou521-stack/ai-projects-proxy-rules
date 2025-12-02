@@ -41,8 +41,39 @@ jobs:
           python generate_rules.py
       
       - name: Commit and push changes
+        id: git_commit
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto update: $(date +'%Y-%m-%d %H:%M:%S')" && git push)
+          # Check if there are changes to commit
+          if ! git diff --quiet || ! git diff --staged --quiet; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+            # Generate version based on date
+            VERSION="v$(date +'%Y.%m.%d')"
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            
+            git commit -m "🤖 Auto update: $(date +'%Y-%m-%d %H:%M:%S')"
+            
+            # Create and push tag (force update if tag exists for same day)
+            git tag -f "$VERSION"
+            git push && git push --tags -f
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          fi
+
+      - name: Create Release
+        if: steps.git_commit.outputs.changes == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.git_commit.outputs.version }}
+          name: 🤖 Auto Update ${{ steps.git_commit.outputs.version }}
+          body: |
+            Automatic update of AI proxy rules.
+            
+            Update time: $(date +'%Y-%m-%d %H:%M:%S')
+          files: |
+            rules/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
