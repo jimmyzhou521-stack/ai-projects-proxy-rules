@@ -2,8 +2,8 @@ name: Update AI Proxy Rules
 
 on:
   schedule:
-    # 每天UTC 0点运行（北京时间8点）
-    - cron: '0 0 * * *'
+    # 每天UTC 20点运行（北京时间凌晨4点）
+    - cron: '0 20 * * *'
   workflow_dispatch:  # 允许手动触发
   push:
     branches:
@@ -27,10 +27,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
-      - name: Collect AI projects
+      - name: Fetch rules from GitHub
         run: |
           cd scripts
-          python collect_ai_projects.py
+          python fetch_rules.py
       
       - name: Generate proxy rules
         run: |
