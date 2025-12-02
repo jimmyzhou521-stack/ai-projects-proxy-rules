@@ -79,9 +79,18 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 强制添加 rules 目录，确保所有规则文件都被包含
+          # 强制添加 rules 目录
           git add rules/
           git add -A
+          
+          echo "🔍 Debug: Checking collect_ai_projects.py content:"
+          grep "waa-pa.clients6.google.com" scripts/collect_ai_projects.py || echo "❌ Domain not found in script!"
+          
+          echo "🔍 Debug: Checking generated sing-box.json content:"
+          grep "waa-pa.clients6.google.com" rules/sing-box.json || echo "❌ Domain not found in rules!"
+          
+          echo "🔍 Debug: Git status:"
+          git status
           
           # Check if there are changes to commit
           if ! git diff --quiet || ! git diff --staged --quiet; then
