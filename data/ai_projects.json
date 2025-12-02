@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2025-12-02 16:07:34",
+  "updated": "2025-12-02 20:43:09",
   "total_rules": 265,
   "sources": [
     "ACL4SSR",
@@ -50,7 +50,6 @@
       "algolia.net",
       "alkalicore-pa.clients6.google.com",
       "alkalimakersuite-pa.clients6.google.com",
-      "all-hands.dev",
       "amzn.to",
       "anthropic.com",
       "anythingllm.com",
@@ -205,6 +204,7 @@
       "openaicomproductionae4b.blob.core.windows.net",
       "openart.ai",
       "openbb.co",
+      "openhands.dev",
       "openinterpreter.com",
       "openvino.ai",
       "openwebui.com",
