@@ -9,6 +9,7 @@ import re
 import requests
 from datetime import datetime
 from typing import List, Dict, Set
+from pathlib import Path
 
 # 内置热门AI服务域名列表
 BUILT_IN_AI_DOMAINS = [
@@ -205,9 +206,16 @@ def main():
     print("🌐 Collecting domains...")
     domains = collect_domains(projects)
     
+    # 获取脚本所在目录的父目录（项目根目录）
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    
     # 保存数据
-    output_file = 'data/collected_projects.json'
-    save_data(projects, domains, output_file)
+    output_file = project_root / 'data' / 'collected_projects.json'
+    # 确保目录存在
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    
+    save_data(projects, domains, str(output_file))
     
     print("✨ Collection completed!")
 
