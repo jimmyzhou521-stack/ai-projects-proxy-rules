@@ -12,51 +12,126 @@ from typing import List, Dict, Set
 from pathlib import Path
 
 # 内置热门AI服务域名列表
+# 内置热门AI服务域名列表
 BUILT_IN_AI_DOMAINS = [
-    # AI聊天和对话
+    # OpenAI / ChatGPT
     "openai.com",
-    "chat.openai.com",
-    "platform.openai.com",
-    "anthropic.com",
-    "claude.ai",
-    "gemini.google.com",
-    "bard.google.com",
-    "ai.google.dev",
-    "makersuite.google.com",
-    "generativelanguage.googleapis.com",
-    "proactivebackend-pa.googleapis.com",
-    "gtn-pa.googleapis.com",
-    "alkalimakersuite-pa.googleapis.com",
-    "jnn-pa.googleapis.com",
-    "waa-pa.clients6.google.com",
-    "ogads-pa.clients6.google.com",
-    "optimizationguide-pa.googleapis.com",
-    "deepmind.google",
-    "deepmind.com",
-    "generativeai.google",
-    "proactivebackend-pa.googleapis.com",
-    "apis.google.com",
-    "www.googleapis.com",
-    "ssl.gstatic.com",
-] + [f"clients{i}.google.com" for i in range(1, 11)] + [
     "chatgpt.com",
+    "ai.com",
+    "chat.com",
     "searchgpt.com",
     "oaistatic.com",
     "oaiusercontent.com",
     "auth0.openai.com",
     "chatgpt.livekit.cloud",
+    "host.livekit.cloud",
+    "turn.livekit.cloud",
     "featuregates.org",
     "featureassets.org",
     "statsig.com",
     "statsigapi.net",
+    "events.statsigapi.net",
+    "api.statsig.com",
     "intercom.io",
     "intercomcdn.com",
     "sentry.io",
     "browser-intake-datadoghq.com",
     "workos.com",
     "workoscdn.com",
+    "auth0.com",
+    "identrust.com",
+    "launchdarkly.com",
+    "observeit.net",
+    "segment.io",
+    "stripe.com",
+    "algolia.net",
+    "openai-api.arkoselabs.com",
+    "client-api.arkoselabs.com",
+    "chat.openai.com.cdn.cloudflare.net",
+    "openai.com.cdn.cloudflare.net",
+    "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+    "openaicomproductionae4b.blob.core.windows.net",
+    "production-openaicom-storage.azureedge.net",
+    "openaiapi-site.azureedge.net",
+    "openaicom.imgix.net",
+    "static.cloudflareinsights.com",
+    "challenges.cloudflare.com",
+    "sora.com",
+
+    # Google / Gemini / Colab
+    "gemini.google.com",
+    "bard.google.com",
+    "ai.google.dev",
+    "aistudio.google.com",
+    "makersuite.google.com",
+    "deepmind.com",
+    "deepmind.google",
+    "generativeai.google",
+    "generativelanguage.googleapis.com",
+    "proactivebackend-pa.googleapis.com",
+    "geller-pa.googleapis.com",
+    "alkalicore-pa.clients6.google.com",
+    "alkalimakersuite-pa.clients6.google.com",
+    "notebooklm.google",
+    "notebooklm.google.com",
+    "colab.research.google.com",
+    "colab.google",
+    "developerprofiles.google.com",
+    "apis.google.com",
+    "www.googleapis.com",
+    "ssl.gstatic.com",
     
-    # AI图像生成
+    # Microsoft / Copilot / Bing
+    "copilot.microsoft.com",
+    "bing.com",
+    "www.bing.com",
+    "r.bing.com",
+    "sydney.bing.com",
+    "edgeservices.bing.com",
+    "services.bingapis.com",
+    "gateway.bingviz.microsoft.net",
+    "gateway.bingviz.microsoftapp.net",
+    "bing-shopping.microsoft-falcon.io",
+    "api.msn.com",
+    "assets.msn.com",
+    "location.microsoft.com",
+    "self.events.data.microsoft.com",
+    "in.appcenter.ms",
+    "odc.officeapps.live.com",
+    "api.microsoftapp.net",
+
+    # Anthropic / Claude
+    "anthropic.com",
+    "claude.ai",
+    "claudeusercontent.com",
+    "servd-anthropic-website.b-cdn.net",
+
+    # Notion AI
+    "notion.ai",
+    "notion.com",
+    "notion.so",
+    "notion.new",
+    "notion.site",
+    "notion-static.com",
+    "http-inputs-notion.splunkcloud.com",
+
+    # Perplexity
+    "perplexity.ai",
+    "pplx.ai",
+    "pplx-res.cloudinary.com",
+
+    # Others (Cursor, Grok, etc.)
+    "cursor.com",
+    "cursor.sh",
+    "cursorapi.com",
+    "cursor-cdn.com",
+    "grok.com",
+    "groq.com",
+    "x.ai",
+    "poe.com",
+    "poecdn.net",
+    "character.ai",
+    "you.com",
     "midjourney.com",
     "stability.ai",
     "stablediffusionweb.com",
@@ -65,41 +140,59 @@ BUILT_IN_AI_DOMAINS = [
     "leonardo.ai",
     "playground.ai",
     "craiyon.com",
-    
-    # AI开发平台
+    "openart.ai",
+    "clipdrop.co",
     "huggingface.co",
     "replicate.com",
     "runpod.io",
     "together.ai",
     "cohere.com",
     "ai21.com",
-    
-    # AI工具和应用
     "jasper.ai",
     "copy.ai",
     "writesonic.com",
-    "notion.ai",
     "gamma.app",
     "tome.app",
     "beautiful.ai",
     "canva.com",
-    
-    # AI视频和音频
     "runway.ml",
     "synthesia.io",
     "descript.com",
     "elevenlabs.io",
     "murf.ai",
-    
-    # AI研究和模型
     "paperswithcode.com",
     "arxiv.org",
     "kaggle.com",
     "civitai.com",
-    
-    # AI搜索
     "phind.com",
-    "bing.com",  # Copilot
+    "dify.ai",
+    "grazie.ai",
+    "grazie.aws.intellij.net",
+    "jetbrains.ai",
+    "meta.ai",
+    "gateway.ai.cloudflare.com",
+    "cdn.usefathom.com",
+] + [f"clients{i}.google.com" for i in range(1, 11)]
+
+# 内置关键字
+BUILT_IN_KEYWORDS = [
+    "openai",
+    "openaicom-api",
+    "colab",
+    "developerprofiles",
+    "generativelanguage",
+]
+
+# 内置IP CIDR
+BUILT_IN_CIDRS = [
+    "24.199.123.28/32",
+    "64.23.132.171/32",
+]
+
+# 内置IP ASN
+BUILT_IN_ASNS = [
+    "14061",
+    "20473",
 ]
 
 def extract_domain_from_url(url: str) -> str:
@@ -205,6 +298,9 @@ def save_data(projects: List[Dict], domains: Set[str], output_file: str):
         'total_projects': len(projects),
         'total_domains': len(domains),
         'domains': sorted(list(domains)),
+        'keywords': BUILT_IN_KEYWORDS,
+        'ip_cidrs': BUILT_IN_CIDRS,
+        'ip_asns': BUILT_IN_ASNS,
         'projects': projects[:50],  # 只保存前50个项目信息
     }
     

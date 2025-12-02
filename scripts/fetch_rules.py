@@ -269,6 +269,12 @@ def main():
             data = json.load(f)
             for domain in data.get('domains', []):
                 collected_parser.domain_suffixes.add(domain)
+            for keyword in data.get('keywords', []):
+                collected_parser.domain_keywords.add(keyword)
+            for cidr in data.get('ip_cidrs', []):
+                collected_parser.ip_cidrs.add(cidr)
+            for asn in data.get('ip_asns', []):
+                collected_parser.ip_asns.add(asn)
     
     # 合并所有规则
     print("🔄 Merging all rules...")
