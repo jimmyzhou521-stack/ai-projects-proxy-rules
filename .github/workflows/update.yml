@@ -79,7 +79,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # 强制添加 rules 目录
+          # 强制刷新 git 索引：先移除 rules 目录的追踪，再重新添加
+          # 这能解决文件内容更新但 git 没检测到的问题
+          git rm -r --cached rules/ || true
           git add rules/
           git add -A
           
