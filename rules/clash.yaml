@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2025-12-02 14:50:31
-# 规则总数: 213
+# 更新时间: 2025-12-02 14:57:03
+# 规则总数: 218
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -50,15 +50,16 @@ payload:
   - DOMAIN-SUFFIX,appflowy.com
   - DOMAIN-SUFFIX,arxiv.org
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,auth0.openai.com
   - DOMAIN-SUFFIX,b3log.org
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,beautiful.ai
   - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
   - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   - DOMAIN-SUFFIX,browser-use.com
   - DOMAIN-SUFFIX,canva.com
   - DOMAIN-SUFFIX,challenges.cloudflare.com
-  - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chat.openai.com
   - DOMAIN-SUFFIX,chatboxai.app?utm_medium=github
@@ -98,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,edgeservices.bing.com
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,events.statsigapi.net
+  - DOMAIN-SUFFIX,featureassets.org
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,firecrawl.dev
   - DOMAIN-SUFFIX,firefly.adobe.com
@@ -165,7 +167,6 @@ payload:
   - DOMAIN-SUFFIX,paddleocr.ai
   - DOMAIN-SUFFIX,paperswithcode.com
   - DOMAIN-SUFFIX,pathway.com
-  - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,phind.com
   - DOMAIN-SUFFIX,platform.openai.com
   - DOMAIN-SUFFIX,playground.ai
@@ -180,6 +181,7 @@ payload:
   - DOMAIN-SUFFIX,replicate.com
   - DOMAIN-SUFFIX,runpod.io
   - DOMAIN-SUFFIX,runway.ml
+  - DOMAIN-SUFFIX,searchgpt.com
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,sider.ai
@@ -187,6 +189,8 @@ payload:
   - DOMAIN-SUFFIX,ssl.gstatic.com
   - DOMAIN-SUFFIX,stability.ai
   - DOMAIN-SUFFIX,stablediffusionweb.com
+  - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,supabase.com
   - DOMAIN-SUFFIX,synthesia.io
@@ -199,11 +203,12 @@ payload:
   - DOMAIN-SUFFIX,unsloth.ai
   - DOMAIN-SUFFIX,vllm.ai
   - DOMAIN-SUFFIX,waa-pa.clients6.google.com
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com
   - DOMAIN-SUFFIX,writesonic.com
   - DOMAIN-SUFFIX,www.googleapis.com
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,xiaobaituai.com
-  - DOMAIN-SUFFIX,you.com
   - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-KEYWORD,cohere
   - DOMAIN-KEYWORD,colab
