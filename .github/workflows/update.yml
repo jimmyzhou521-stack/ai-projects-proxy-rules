@@ -44,6 +44,11 @@ jobs:
           rm -rf sing-box*
           sing-box version
       
+      - name: Collect AI projects
+        run: |
+          cd scripts
+          python collect_ai_projects.py
+
       - name: Fetch rules from GitHub
         run: |
           cd scripts

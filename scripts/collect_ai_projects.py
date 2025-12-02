@@ -206,7 +206,7 @@ def main():
     domains = collect_domains(projects)
     
     # 保存数据
-    output_file = 'data/ai_projects.json'
+    output_file = 'data/collected_projects.json'
     save_data(projects, domains, output_file)
     
     print("✨ Collection completed!")

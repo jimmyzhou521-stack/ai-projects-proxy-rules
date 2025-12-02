@@ -260,9 +260,19 @@ def main():
     custom_file = project_root / 'data' / 'custom_rules.txt'
     custom_parser = load_custom_rules(str(custom_file))
     
+    # 加载采集的项目规则
+    collected_file = project_root / 'data' / 'collected_projects.json'
+    collected_parser = RuleParser()
+    if collected_file.exists():
+        print(f"📄 Loading collected projects from {collected_file}")
+        with open(collected_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            for domain in data.get('domains', []):
+                collected_parser.domain_suffixes.add(domain)
+    
     # 合并所有规则
     print("🔄 Merging all rules...")
-    final_parser = merge_parsers([github_parser, custom_parser])
+    final_parser = merge_parsers([github_parser, custom_parser, collected_parser])
     
     # 保存结果
     print()
