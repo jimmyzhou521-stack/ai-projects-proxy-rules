@@ -82,15 +82,15 @@ jobs:
           # Check if there are changes to commit
           if ! git diff --quiet || ! git diff --staged --quiet; then
             echo "changes=true" >> $GITHUB_OUTPUT
-            # Generate version based on date
-            VERSION="v$(date +'%Y.%m.%d')"
+            # Generate version based on date and time to ensure unique releases
+            VERSION="v$(date +'%Y.%m.%d-%H%M')"
             echo "version=$VERSION" >> $GITHUB_OUTPUT
             
             git commit -m "🤖 Auto update: $(date +'%Y-%m-%d %H:%M:%S')"
             
-            # Create and push tag (force update if tag exists for same day)
-            git tag -f "$VERSION"
-            git push && git push --tags -f
+            # Create and push tag
+            git tag "$VERSION"
+            git push && git push --tags
           else
             echo "changes=false" >> $GITHUB_OUTPUT
             echo "No changes to commit"
