@@ -248,6 +248,31 @@ def main():
     # 加载规则数据
     data_file = project_root / 'data' / 'ai_projects.json'
     rules = load_rules(str(data_file))
+
+    # 双重保险：直接加载 collected_projects.json 并合并
+    collected_file = project_root / 'data' / 'collected_projects.json'
+    if collected_file.exists():
+        print(f"🔄 Merging collected projects from {collected_file}...")
+        with open(collected_file, 'r', encoding='utf-8') as f:
+            collected_data = json.load(f)
+            
+            # 合并域名
+            if 'domains' in collected_data:
+                current_domains = set(rules.get('domain_suffixes', []))
+                current_domains.update(collected_data['domains'])
+                rules['domain_suffixes'] = sorted(list(current_domains))
+            
+            # 合并关键字
+            if 'keywords' in collected_data:
+                current_keywords = set(rules.get('domain_keywords', []))
+                current_keywords.update(collected_data['keywords'])
+                rules['domain_keywords'] = sorted(list(current_keywords))
+                
+            # 合并IP CIDR
+            if 'ip_cidrs' in collected_data:
+                current_cidrs = set(rules.get('ip_cidrs', []))
+                current_cidrs.update(collected_data['ip_cidrs'])
+                rules['ip_cidrs'] = sorted(list(current_cidrs))
     
     total_rules = sum(len(v) for v in rules.values())
     print(f"📊 Total rules: {total_rules}")
