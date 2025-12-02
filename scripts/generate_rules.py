@@ -225,9 +225,13 @@ def generate_loon_rules(rules: dict, output_file: str):
 def main():
     print("🚀 Starting rule generation...")
     
+    # 获取脚本所在目录的父目录（项目根目录）
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    
     # 加载规则数据
-    data_file = 'data/ai_projects.json'
-    rules = load_rules(data_file)
+    data_file = project_root / 'data' / 'ai_projects.json'
+    rules = load_rules(str(data_file))
     
     total_rules = sum(len(v) for v in rules.values())
     print(f"📊 Total rules: {total_rules}")
@@ -238,13 +242,17 @@ def main():
     print(f"   - IP ASNs: {len(rules.get('ip_asns', []))}")
     print()
     
+    # 确保输出目录存在
+    rules_dir = project_root / 'rules'
+    rules_dir.mkdir(parents=True, exist_ok=True)
+    
     # 生成各种格式的规则
-    generate_clash_rules(rules, 'rules/clash.yaml')
-    generate_surge_rules(rules, 'rules/surge.conf')
-    generate_quantumult_x_rules(rules, 'rules/quantumult-x.conf')
-    generate_shadowrocket_rules(rules, 'rules/shadowrocket.conf')
-    generate_singbox_rules(rules, 'rules/sing-box.json')
-    generate_loon_rules(rules, 'rules/loon.conf')
+    generate_clash_rules(rules, str(rules_dir / 'clash.yaml'))
+    generate_surge_rules(rules, str(rules_dir / 'surge.conf'))
+    generate_quantumult_x_rules(rules, str(rules_dir / 'quantumult-x.conf'))
+    generate_shadowrocket_rules(rules, str(rules_dir / 'shadowrocket.conf'))
+    generate_singbox_rules(rules, str(rules_dir / 'sing-box.json'))
+    generate_loon_rules(rules, str(rules_dir / 'loon.conf'))
     
     print("\n✨ Rule generation completed!")
 

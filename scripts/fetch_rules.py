@@ -38,13 +38,6 @@ RULE_SOURCES = [
             "https://raw.githubusercontent.com/Loyalsoldier/clash-rules/release/proxy.txt",
         ],
         "type": "clash"
-    },
-    {
-        "name": "GeQ1an",
-        "urls": [
-            "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Optional/OpenAI.list",
-        ],
-        "type": "quantumult"
     }
 ]
 
@@ -179,12 +172,15 @@ def load_custom_rules(custom_file: str) -> RuleParser:
     """加载自定义规则"""
     parser = RuleParser()
     
-    if Path(custom_file).exists():
+    custom_path = Path(custom_file)
+    if custom_path.exists():
         print(f"📄 Loading custom rules from {custom_file}")
-        with open(custom_file, 'r', encoding='utf-8') as f:
+        with open(custom_path, 'r', encoding='utf-8') as f:
             content = f.read()
             for line in content.split('\n'):
                 parser.parse_line(line, 'clash')
+    else:
+        print(f"ℹ️  Custom rules file not found: {custom_file}, skipping...")
     
     return parser
 
@@ -204,6 +200,10 @@ def merge_parsers(parsers: List[RuleParser]) -> RuleParser:
 def save_rules(parser: RuleParser, output_file: str):
     """保存规则到JSON文件"""
     rules = parser.get_all_rules()
+    
+    # 确保输出目录存在
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
     
     output_data = {
         "name": "AI Projects Proxy Rules",
@@ -231,11 +231,16 @@ def main():
     print("=" * 60)
     print()
     
+    # 获取脚本所在目录的父目录（项目根目录）
+    script_dir = Path(__file__).parent
+    project_root = script_dir.parent
+    
     # 获取GitHub规则
     github_parser = fetch_all_rules()
     
     # 加载自定义规则
-    custom_parser = load_custom_rules('data/custom_rules.txt')
+    custom_file = project_root / 'data' / 'custom_rules.txt'
+    custom_parser = load_custom_rules(str(custom_file))
     
     # 合并所有规则
     print("🔄 Merging all rules...")
@@ -243,7 +248,8 @@ def main():
     
     # 保存结果
     print()
-    save_rules(final_parser, 'data/ai_projects.json')
+    output_file = project_root / 'data' / 'ai_projects.json'
+    save_rules(final_parser, str(output_file))
     
     print()
     print("✨ Rule fetching completed!")
