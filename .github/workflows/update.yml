@@ -9,6 +9,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write  # 允许推送提交
+
 jobs:
   update:
     runs-on: ubuntu-latest
