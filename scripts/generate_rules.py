@@ -194,23 +194,10 @@ def generate_singbox_rules(rules: dict, output_file: str):
         rule_set["rules"].append(domain_rule)
     
     # 添加IP规则
-    ip_rule = {}
     if rules.get('ip_cidrs'):
-        ip_rule["ip_cidr"] = rules['ip_cidrs']
-    
-    if rules.get('ip_asns'):
-        # 确保ASN是整数
-        asns = []
-        for asn in rules['ip_asns']:
-            try:
-                asns.append(int(asn))
-            except ValueError:
-                continue
-        if asns:
-            ip_rule["ip_asn"] = asns
-            
-    if ip_rule:
-        rule_set["rules"].append(ip_rule)
+        rule_set["rules"].append({
+            "ip_cidr": rules['ip_cidrs']
+        })
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(rule_set, f, indent=2, ensure_ascii=False)
