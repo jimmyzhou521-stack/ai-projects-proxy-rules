@@ -1,0 +1,48 @@
+# AI网站代理规则 - Clash格式
+# 更新时间: 2025-12-02 17:34:00
+# 使用方法: 将以下规则添加到Clash配置文件的rules部分
+
+payload:
+  - DOMAIN-SUFFIX,ai21.com
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,arxiv.org
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,beautiful.ai
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,canva.com
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,chat.openai.com
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,copy.ai
+  - DOMAIN-SUFFIX,craiyon.com
+  - DOMAIN-SUFFIX,dall-e.com
+  - DOMAIN-SUFFIX,descript.com
+  - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,firefly.adobe.com
+  - DOMAIN-SUFFIX,gamma.app
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,leonardo.ai
+  - DOMAIN-SUFFIX,midjourney.com
+  - DOMAIN-SUFFIX,murf.ai
+  - DOMAIN-SUFFIX,notion.ai
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,paperswithcode.com
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,platform.openai.com
+  - DOMAIN-SUFFIX,playground.ai
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,replicate.com
+  - DOMAIN-SUFFIX,runway.ml
+  - DOMAIN-SUFFIX,runpod.io
+  - DOMAIN-SUFFIX,stability.ai
+  - DOMAIN-SUFFIX,stablediffusionweb.com
+  - DOMAIN-SUFFIX,synthesia.io
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,tome.app
+  - DOMAIN-SUFFIX,writesonic.com
+  - DOMAIN-SUFFIX,you.com

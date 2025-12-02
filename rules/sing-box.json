@@ -1,0 +1,53 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "domain_suffix": [
+                "ai21.com",
+                "anthropic.com",
+                "arxiv.org",
+                "bard.google.com",
+                "beautiful.ai",
+                "bing.com",
+                "canva.com",
+                "character.ai",
+                "chat.openai.com",
+                "civitai.com",
+                "claude.ai",
+                "cohere.com",
+                "copy.ai",
+                "craiyon.com",
+                "dall-e.com",
+                "descript.com",
+                "elevenlabs.io",
+                "firefly.adobe.com",
+                "gamma.app",
+                "gemini.google.com",
+                "huggingface.co",
+                "jasper.ai",
+                "kaggle.com",
+                "leonardo.ai",
+                "midjourney.com",
+                "murf.ai",
+                "notion.ai",
+                "openai.com",
+                "paperswithcode.com",
+                "perplexity.ai",
+                "platform.openai.com",
+                "playground.ai",
+                "poe.com",
+                "replicate.com",
+                "runway.ml",
+                "runpod.io",
+                "stability.ai",
+                "stablediffusionweb.com",
+                "synthesia.io",
+                "together.ai",
+                "tome.app",
+                "writesonic.com",
+                "you.com"
+            ],
+            "outbound": "proxy"
+        }
+    ]
+}
