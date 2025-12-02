@@ -160,11 +160,25 @@ def generate_shadowrocket_rules(rules: dict, output_file: str):
     print(f"✅ Shadowrocket rules saved to {output_file} ({total_rules} rules)")
 
 def generate_singbox_rules(rules: dict, output_file: str):
-    """生成Sing-box规则 (JSON格式)"""
+    """生成Sing-box规则 (JSON格式)
+    
+    此函数生成的是 source format (JSON)，可以被 sing-box 直接使用。
+    如需更高性能，可以使用以下命令编译为 SRS 二进制格式：
+    
+    sing-box rule-set compile --output ai-proxy.srs sing-box.json
+    
+    SRS 格式说明：
+    - SRS (Sing-box Rule Set) 是优化后的二进制格式
+    - 相比 JSON 格式有更好的性能和更小的文件体积
+    - 推荐在生产环境使用 SRS 格式
+    """
     total_rules = sum(len(v) for v in rules.values())
     
+    # 使用 version 2 以优化 domain_suffix 的内存使用
+    # version 1: 初始版本 (sing-box 1.8.0+)
+    # version 2: 优化 domain_suffix 内存使用 (sing-box 1.10.0+)
     rule_set = {
-        "version": 1,
+        "version": 2,
         "rules": []
     }
     
@@ -190,6 +204,8 @@ def generate_singbox_rules(rules: dict, output_file: str):
         json.dump(rule_set, f, indent=2, ensure_ascii=False)
     
     print(f"✅ Sing-box rules saved to {output_file} ({total_rules} rules)")
+    print(f"   💡 Tip: Compile to SRS for better performance:")
+    print(f"   sing-box rule-set compile --output ai-proxy.srs {Path(output_file).name}")
 
 def generate_loon_rules(rules: dict, output_file: str):
     """生成Loon规则"""

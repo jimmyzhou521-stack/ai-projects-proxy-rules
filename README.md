@@ -56,9 +56,15 @@ https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rul
 
 #### Sing-box
 
+**JSON 格式（推荐新手）：**
+
 ```
 https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/sing-box.json
 ```
+
+**SRS 格式（推荐生产环境）：**
+
+SRS 是 sing-box 的优化二进制格式，性能更好、体积更小。详见：[Sing-box SRS 使用指南](docs/SINGBOX_SRS.md)
 
 #### Loon
 
