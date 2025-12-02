@@ -33,25 +33,25 @@ Automatically collect popular international AI website domains and generate prox
 #### Clash
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/clash.yaml
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/clash.yaml
 ```
 
 #### Surge
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/surge.conf
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/surge.conf
 ```
 
 #### Quantumult X
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/quantumult-x.conf
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/quantumult-x.conf
 ```
 
 #### Shadowrocket
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/shadowrocket.conf
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/shadowrocket.conf
 ```
 
 #### Sing-box
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rul
 **JSON 格式（推荐新手）：**
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/sing-box.json
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/sing-box.json
 ```
 
 **SRS 格式（推荐生产环境）：**
@@ -69,7 +69,7 @@ SRS 是 sing-box 的优化二进制格式，性能更好、体积更小。详见
 #### Loon
 
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rules/loon.conf
+https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/loon.conf
 ```
 
 > 💡 **提示**：将 `YOUR_USERNAME` 替换为你的GitHub用户名
@@ -87,9 +87,9 @@ https://raw.githubusercontent.com/YOUR_USERNAME/ai-projects-proxy-rules/main/rul
 ### 1. Fork或上传此项目
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-projects-proxy-rules.git
+git clone https://github.com/jimmyzhou521-stack/ai-projects-proxy-rules.git
 cd ai-projects-proxy-rules
-git remote set-url origin https://github.com/YOUR_USERNAME/ai-projects-proxy-rules.git
+git remote set-url origin https://github.com/jimmyzhou521-stack/ai-projects-proxy-rules.git
 git push -u origin main
 ```
 
