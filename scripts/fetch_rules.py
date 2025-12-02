@@ -12,12 +12,14 @@ from datetime import datetime
 from pathlib import Path
 
 # 热门GitHub规则源列表
+# 热门GitHub规则源列表
 RULE_SOURCES = [
     {
         "name": "ACL4SSR",
         "urls": [
             "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list",
-            "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
+            # 移除 Google.list，因为它包含太多非AI服务
+            # "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list",
         ],
         "type": "clash"
     },
@@ -25,7 +27,8 @@ RULE_SOURCES = [
         "name": "blackmatrix7",
         "urls": [
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list",
-            "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list",
+            # 移除 Google.list
+            # "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
             "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list",
@@ -40,6 +43,18 @@ RULE_SOURCES = [
         "type": "clash"
     }
 ]
+
+# 需要过滤的宽泛域名（不作为后缀规则添加）
+IGNORED_DOMAINS = {
+    "google.com",
+    "google.cn",
+    "google.com.hk",
+    "bing.com",
+    "microsoft.com",
+    "apple.com",
+    "amazon.com",
+    "baidu.com",
+}
 
 class RuleParser:
     """规则解析器"""
@@ -103,6 +118,9 @@ class RuleParser:
                     # 清理域名
                     value = value.replace('*.', '')
                     if value and self._is_valid_domain(value):
+                        # 过滤宽泛域名
+                        if value in IGNORED_DOMAINS:
+                            continue
                         self.domain_suffixes.add(value)
                 elif rule_kind == 'domain':
                     if value and self._is_valid_domain(value):
