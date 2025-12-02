@@ -7,6 +7,7 @@ Generate proxy rules for multiple proxy tools
 import json
 from datetime import datetime
 from typing import List, Dict
+from pathlib import Path
 
 def load_rules(data_file: str) -> dict:
     """从数据文件加载所有规则"""
