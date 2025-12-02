@@ -30,6 +30,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       
+      - name: Install sing-box
+        run: |
+          bash <(curl -fsSL https://sing-box.app/get.sh)
+      
       - name: Fetch rules from GitHub
         run: |
           cd scripts
@@ -39,6 +43,10 @@ jobs:
         run: |
           cd scripts
           python generate_rules.py
+      
+      - name: Compile sing-box SRS
+        run: |
+          sing-box rule-set compile --output rules/sing-box.srs rules/sing-box.json
       
       - name: Commit and push changes
         id: git_commit
