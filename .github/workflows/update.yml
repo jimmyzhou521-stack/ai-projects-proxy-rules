@@ -78,7 +78,11 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          # 强制添加 rules 目录，确保所有规则文件都被包含
+          git add rules/
           git add -A
+          
           # Check if there are changes to commit
           if ! git diff --quiet || ! git diff --staged --quiet; then
             echo "changes=true" >> $GITHUB_OUTPUT
