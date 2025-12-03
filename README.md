@@ -45,21 +45,6 @@ https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/mai
 #### Quantumult X
 
 ```
-https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/quantumult-x.conf
-```
-
-#### Shadowrocket
-
-```
-https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/shadowrocket.conf
-```
-
-#### Sing-box
-
-**JSON 格式（推荐新手）：**
-
-```
-https://raw.githubusercontent.com/jimmyzhou521-stack/ai-projects-proxy-rules/main/rules/sing-box.json
 ```
 
 **SRS 格式（推荐生产环境）：**
