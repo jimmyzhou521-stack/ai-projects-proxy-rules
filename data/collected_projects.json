@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T09:01:25.170211",
+  "updated_at": "2025-12-03T09:06:22.730543",
   "total_projects": 100,
   "total_domains": 226,
   "domains": [
@@ -266,7 +266,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 160307,
+      "stars": 160308,
       "homepage": "https://n8n.io",
       "url": "https://github.com/n8n-io/n8n"
     },
@@ -282,7 +282,7 @@
       "name": "ollama",
       "full_name": "ollama/ollama",
       "description": "Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.",
-      "stars": 156962,
+      "stars": 156963,
       "homepage": "https://ollama.com",
       "url": "https://github.com/ollama/ollama"
     },
@@ -290,7 +290,7 @@
       "name": "transformers",
       "full_name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 153350,
+      "stars": 153351,
       "homepage": "https://huggingface.co/transformers",
       "url": "https://github.com/huggingface/transformers"
     },
@@ -298,7 +298,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140110,
+      "stars": 140113,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -306,7 +306,7 @@
       "name": "awesome-chatgpt-prompts",
       "full_name": "f/awesome-chatgpt-prompts",
       "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
-      "stars": 138239,
+      "stars": 138240,
       "homepage": "https://prompts.chat",
       "url": "https://github.com/f/awesome-chatgpt-prompts"
     },
@@ -322,7 +322,7 @@
       "name": "dify",
       "full_name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 120411,
+      "stars": 120412,
       "homepage": "https://dify.ai",
       "url": "https://github.com/langgenius/dify"
     },
@@ -330,7 +330,7 @@
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 116838,
+      "stars": 116840,
       "homepage": "https://openwebui.com",
       "url": "https://github.com/open-webui/open-webui"
     },
@@ -378,7 +378,7 @@
       "name": "llama.cpp",
       "full_name": "ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
-      "stars": 90744,
+      "stars": 90745,
       "homepage": "",
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -402,7 +402,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81457,
+      "stars": 81458,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -410,7 +410,7 @@
       "name": "LLMs-from-scratch",
       "full_name": "rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "stars": 80343,
+      "stars": 80344,
       "homepage": "https://amzn.to/4fqvn0D",
       "url": "https://github.com/rasbt/LLMs-from-scratch"
     },
@@ -442,7 +442,7 @@
       "name": "netdata",
       "full_name": "netdata/netdata",
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "stars": 76889,
+      "stars": 76890,
       "homepage": "https://www.netdata.cloud",
       "url": "https://github.com/netdata/netdata"
     },
@@ -530,7 +530,7 @@
       "name": "llm-course",
       "full_name": "mlabonne/llm-course",
       "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stars": 68903,
+      "stars": 68904,
       "homepage": "https://mlabonne.github.io/blog/",
       "url": "https://github.com/mlabonne/llm-course"
     },
@@ -546,7 +546,7 @@
       "name": "lobe-chat",
       "full_name": "lobehub/lobe-chat",
       "description": "🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
-      "stars": 68492,
+      "stars": 68493,
       "homepage": "https://lobechat.com",
       "url": "https://github.com/lobehub/lobe-chat"
     },
@@ -554,7 +554,7 @@
       "name": "Prompt-Engineering-Guide",
       "full_name": "dair-ai/Prompt-Engineering-Guide",
       "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "stars": 67183,
+      "stars": 67184,
       "homepage": "https://www.promptingguide.ai/",
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
     },
@@ -570,7 +570,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65661,
+      "stars": 65663,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
@@ -602,7 +602,7 @@
       "name": "LLaMA-Factory",
       "full_name": "hiyouga/LLaMA-Factory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "stars": 63430,
+      "stars": 63431,
       "homepage": "https://llamafactory.readthedocs.io",
       "url": "https://github.com/hiyouga/LLaMA-Factory"
     },
