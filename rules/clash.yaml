@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2025-12-03 03:13:39
-# 规则总数: 509
+# 更新时间: 2025-12-03 08:32:48
+# 规则总数: 513
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -166,6 +166,7 @@ payload:
   - DOMAIN-SUFFIX,craiyon.com
   - DOMAIN-SUFFIX,crawl4ai.com
   - DOMAIN-SUFFIX,crl.pki.goog
+  - DOMAIN-SUFFIX,ct.sendgrid.net
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
@@ -296,6 +297,8 @@ payload:
   - DOMAIN-SUFFIX,leonardo.ai
   - DOMAIN-SUFFIX,link-ai.tech
   - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,livekit.cloud
+  - DOMAIN-SUFFIX,livekit.io
   - DOMAIN-SUFFIX,llamaindex.ai
   - DOMAIN-SUFFIX,lmsudio.ai
   - DOMAIN-SUFFIX,lmsys.org
@@ -447,6 +450,7 @@ payload:
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workos.imgix.net
   - DOMAIN-SUFFIX,workoscdn.com
   - DOMAIN-SUFFIX,writesonic.com
   - DOMAIN-SUFFIX,www-googletagmanager.l.google.com
