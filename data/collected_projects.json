@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T08:47:37.581754",
+  "updated_at": "2025-12-03T08:52:25.938730",
   "total_projects": 100,
   "total_domains": 226,
   "domains": [
@@ -258,7 +258,7 @@
       "name": "AutoGPT",
       "full_name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 180072,
+      "stars": 180073,
       "homepage": "https://agpt.co",
       "url": "https://github.com/Significant-Gravitas/AutoGPT"
     },
@@ -266,7 +266,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 160304,
+      "stars": 160306,
       "homepage": "https://n8n.io",
       "url": "https://github.com/n8n-io/n8n"
     },
@@ -282,7 +282,7 @@
       "name": "ollama",
       "full_name": "ollama/ollama",
       "description": "Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.",
-      "stars": 156961,
+      "stars": 156962,
       "homepage": "https://ollama.com",
       "url": "https://github.com/ollama/ollama"
     },
@@ -298,7 +298,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140109,
+      "stars": 140110,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -306,7 +306,7 @@
       "name": "awesome-chatgpt-prompts",
       "full_name": "f/awesome-chatgpt-prompts",
       "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
-      "stars": 138238,
+      "stars": 138239,
       "homepage": "https://prompts.chat",
       "url": "https://github.com/f/awesome-chatgpt-prompts"
     },
@@ -314,7 +314,7 @@
       "name": "langchain",
       "full_name": "langchain-ai/langchain",
       "description": "🦜🔗 The platform for reliable agents.",
-      "stars": 121012,
+      "stars": 121014,
       "homepage": "https://docs.langchain.com/oss/python/langchain/",
       "url": "https://github.com/langchain-ai/langchain"
     },
@@ -322,7 +322,7 @@
       "name": "dify",
       "full_name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 120410,
+      "stars": 120411,
       "homepage": "https://dify.ai",
       "url": "https://github.com/langgenius/dify"
     },
@@ -354,7 +354,7 @@
       "name": "pytorch",
       "full_name": "pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "stars": 95552,
+      "stars": 95553,
       "homepage": "https://pytorch.org",
       "url": "https://github.com/pytorch/pytorch"
     },
@@ -362,7 +362,7 @@
       "name": "ComfyUI",
       "full_name": "comfyanonymous/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "stars": 95380,
+      "stars": 95381,
       "homepage": "https://www.comfy.org/",
       "url": "https://github.com/comfyanonymous/ComfyUI"
     },
@@ -370,7 +370,7 @@
       "name": "supabase",
       "full_name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "stars": 93977,
+      "stars": 93978,
       "homepage": "https://supabase.com",
       "url": "https://github.com/supabase/supabase"
     },
@@ -402,7 +402,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81456,
+      "stars": 81457,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -490,7 +490,7 @@
       "name": "tesseract",
       "full_name": "tesseract-ocr/tesseract",
       "description": "Tesseract Open Source OCR Engine (main repository)",
-      "stars": 71212,
+      "stars": 71213,
       "homepage": "https://tesseract-ocr.github.io/",
       "url": "https://github.com/tesseract-ocr/tesseract"
     },
@@ -506,7 +506,7 @@
       "name": "gpt_academic",
       "full_name": "binary-husky/gpt_academic",
       "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
-      "stars": 69755,
+      "stars": 69756,
       "homepage": "https://github.com/binary-husky/gpt_academic/wiki/online",
       "url": "https://github.com/binary-husky/gpt_academic"
     },
@@ -538,7 +538,7 @@
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "stars": 68714,
+      "stars": 68716,
       "homepage": "https://ragflow.io",
       "url": "https://github.com/infiniflow/ragflow"
     },
@@ -570,7 +570,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65658,
+      "stars": 65660,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
@@ -626,7 +626,7 @@
       "name": "awesome-chatgpt-prompts-zh",
       "full_name": "PlexPt/awesome-chatgpt-prompts-zh",
       "description": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
-      "stars": 57030,
+      "stars": 57031,
       "homepage": "https://chat.aimakex.com/",
       "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
     },
@@ -642,7 +642,7 @@
       "name": "OpenBB",
       "full_name": "OpenBB-finance/OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
-      "stars": 55123,
+      "stars": 55124,
       "homepage": "https://openbb.co",
       "url": "https://github.com/OpenBB-finance/OpenBB"
     }
