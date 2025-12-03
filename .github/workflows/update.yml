@@ -121,6 +121,9 @@ jobs:
             
             git commit -m "🤖 Auto update: $UPDATE_TIME"
             
+            # Pull latest changes to avoid conflicts
+            git pull --rebase origin main
+            
             # Create and push tag
             git tag "$VERSION"
             # Explicitly push to main branch and push tags
