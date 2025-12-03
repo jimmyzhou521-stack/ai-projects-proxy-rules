@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2025-12-02 20:43:09",
-  "total_rules": 265,
+  "updated": "2025-12-03 01:59:28",
+  "total_rules": 268,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -26,9 +26,12 @@
       "in.appcenter.ms",
       "location.microsoft.com",
       "makersuite.google.com",
+      "o33249.ingest.sentry.io",
       "odc.officeapps.live.com",
       "openai-api.arkoselabs.com",
+      "openaiapi-site.azureedge.net",
       "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+      "openaicom.imgix.net",
       "openaicomproductionae4b.blob.core.windows.net",
       "production-openaicom-storage.azureedge.net",
       "r.bing.com",

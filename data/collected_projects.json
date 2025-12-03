@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-02T20:43:08.584525",
+  "updated_at": "2025-12-03T01:59:28.153770",
   "total_projects": 100,
   "total_domains": 217,
   "domains": [
@@ -241,7 +241,7 @@
       "name": "tensorflow",
       "full_name": "tensorflow/tensorflow",
       "description": "An Open Source Machine Learning Framework for Everyone",
-      "stars": 192652,
+      "stars": 192655,
       "homepage": "https://tensorflow.org",
       "url": "https://github.com/tensorflow/tensorflow"
     },
@@ -249,7 +249,7 @@
       "name": "AutoGPT",
       "full_name": "Significant-Gravitas/AutoGPT",
       "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
-      "stars": 180067,
+      "stars": 180066,
       "homepage": "https://agpt.co",
       "url": "https://github.com/Significant-Gravitas/AutoGPT"
     },
@@ -257,7 +257,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 160190,
+      "stars": 160236,
       "homepage": "https://n8n.io",
       "url": "https://github.com/n8n-io/n8n"
     },
@@ -265,7 +265,7 @@
       "name": "stable-diffusion-webui",
       "full_name": "AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
-      "stars": 158693,
+      "stars": 158695,
       "homepage": "",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
     },
@@ -273,7 +273,7 @@
       "name": "ollama",
       "full_name": "ollama/ollama",
       "description": "Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.",
-      "stars": 156928,
+      "stars": 156937,
       "homepage": "https://ollama.com",
       "url": "https://github.com/ollama/ollama"
     },
@@ -281,7 +281,7 @@
       "name": "transformers",
       "full_name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 153311,
+      "stars": 153322,
       "homepage": "https://huggingface.co/transformers",
       "url": "https://github.com/huggingface/transformers"
     },
@@ -289,7 +289,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140049,
+      "stars": 140069,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -297,7 +297,7 @@
       "name": "awesome-chatgpt-prompts",
       "full_name": "f/awesome-chatgpt-prompts",
       "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
-      "stars": 138179,
+      "stars": 138186,
       "homepage": "https://prompts.chat",
       "url": "https://github.com/f/awesome-chatgpt-prompts"
     },
@@ -305,7 +305,7 @@
       "name": "langchain",
       "full_name": "langchain-ai/langchain",
       "description": "🦜🔗 The platform for reliable agents.",
-      "stars": 120966,
+      "stars": 120975,
       "homepage": "https://docs.langchain.com/oss/python/langchain/",
       "url": "https://github.com/langchain-ai/langchain"
     },
@@ -313,7 +313,7 @@
       "name": "dify",
       "full_name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 120356,
+      "stars": 120367,
       "homepage": "https://dify.ai",
       "url": "https://github.com/langgenius/dify"
     },
@@ -321,7 +321,7 @@
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 116794,
+      "stars": 116806,
       "homepage": "https://openwebui.com",
       "url": "https://github.com/open-webui/open-webui"
     },
@@ -329,7 +329,7 @@
       "name": "generative-ai-for-beginners",
       "full_name": "microsoft/generative-ai-for-beginners",
       "description": "21 Lessons, Get Started Building with Generative AI ",
-      "stars": 102588,
+      "stars": 102593,
       "homepage": "",
       "url": "https://github.com/microsoft/generative-ai-for-beginners"
     },
@@ -337,7 +337,7 @@
       "name": "system-prompts-and-models-of-ai-tools",
       "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "stars": 98941,
+      "stars": 98975,
       "homepage": "",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
     },
@@ -345,7 +345,7 @@
       "name": "pytorch",
       "full_name": "pytorch/pytorch",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
-      "stars": 95538,
+      "stars": 95543,
       "homepage": "https://pytorch.org",
       "url": "https://github.com/pytorch/pytorch"
     },
@@ -353,7 +353,7 @@
       "name": "ComfyUI",
       "full_name": "comfyanonymous/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "stars": 95316,
+      "stars": 95331,
       "homepage": "https://www.comfy.org/",
       "url": "https://github.com/comfyanonymous/ComfyUI"
     },
@@ -361,7 +361,7 @@
       "name": "supabase",
       "full_name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "stars": 93931,
+      "stars": 93946,
       "homepage": "https://supabase.com",
       "url": "https://github.com/supabase/supabase"
     },
@@ -369,7 +369,7 @@
       "name": "llama.cpp",
       "full_name": "ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
-      "stars": 90712,
+      "stars": 90727,
       "homepage": "",
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -377,7 +377,7 @@
       "name": "NextChat",
       "full_name": "ChatGPTNextWeb/NextChat",
       "description": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
-      "stars": 86574,
+      "stars": 86575,
       "homepage": "https://nextnext.chat",
       "url": "https://github.com/ChatGPTNextWeb/NextChat"
     },
@@ -385,7 +385,7 @@
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 85539,
+      "stars": 85561,
       "homepage": "https://geminicli.com",
       "url": "https://github.com/google-gemini/gemini-cli"
     },
@@ -393,7 +393,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81390,
+      "stars": 81412,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -401,7 +401,7 @@
       "name": "LLMs-from-scratch",
       "full_name": "rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "stars": 80302,
+      "stars": 80312,
       "homepage": "https://amzn.to/4fqvn0D",
       "url": "https://github.com/rasbt/LLMs-from-scratch"
     },
@@ -409,7 +409,7 @@
       "name": "ML-For-Beginners",
       "full_name": "microsoft/ML-For-Beginners",
       "description": "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",
-      "stars": 79472,
+      "stars": 79473,
       "homepage": "",
       "url": "https://github.com/microsoft/ML-For-Beginners"
     },
@@ -433,7 +433,7 @@
       "name": "netdata",
       "full_name": "netdata/netdata",
       "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
-      "stars": 76888,
+      "stars": 76890,
       "homepage": "https://www.netdata.cloud",
       "url": "https://github.com/netdata/netdata"
     },
@@ -441,7 +441,7 @@
       "name": "Deep-Live-Cam",
       "full_name": "hacksider/Deep-Live-Cam",
       "description": "real time face swap and one-click video deepfake with only a single image",
-      "stars": 76096,
+      "stars": 76097,
       "homepage": "https://deeplivecam.net/",
       "url": "https://github.com/hacksider/Deep-Live-Cam"
     },
@@ -449,7 +449,7 @@
       "name": "awesome-mcp-servers",
       "full_name": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
-      "stars": 76005,
+      "stars": 76012,
       "homepage": "https://glama.ai/mcp/servers",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
@@ -457,7 +457,7 @@
       "name": "d2l-zh",
       "full_name": "d2l-ai/d2l-zh",
       "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
-      "stars": 74169,
+      "stars": 74170,
       "homepage": "http://zh.d2l.ai",
       "url": "https://github.com/d2l-ai/d2l-zh"
     },
@@ -465,7 +465,7 @@
       "name": "browser-use",
       "full_name": "browser-use/browser-use",
       "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-      "stars": 73178,
+      "stars": 73185,
       "homepage": "https://browser-use.com",
       "url": "https://github.com/browser-use/browser-use"
     },
@@ -473,7 +473,7 @@
       "name": "stable-diffusion",
       "full_name": "CompVis/stable-diffusion",
       "description": "A latent text-to-image diffusion model",
-      "stars": 71928,
+      "stars": 71932,
       "homepage": "https://ommer-lab.com/research/latent-diffusion-models/",
       "url": "https://github.com/CompVis/stable-diffusion"
     },
@@ -481,7 +481,7 @@
       "name": "tesseract",
       "full_name": "tesseract-ocr/tesseract",
       "description": "Tesseract Open Source OCR Engine (main repository)",
-      "stars": 71205,
+      "stars": 71206,
       "homepage": "https://tesseract-ocr.github.io/",
       "url": "https://github.com/tesseract-ocr/tesseract"
     },
@@ -489,7 +489,7 @@
       "name": "awesome-machine-learning",
       "full_name": "josephmisiti/awesome-machine-learning",
       "description": "A curated list of awesome Machine Learning frameworks, libraries and software.",
-      "stars": 70820,
+      "stars": 70822,
       "homepage": null,
       "url": "https://github.com/josephmisiti/awesome-machine-learning"
     },
@@ -497,7 +497,7 @@
       "name": "gpt_academic",
       "full_name": "binary-husky/gpt_academic",
       "description": "为GPT/GLM等LLM大语言模型提供实用化交互接口，特别优化论文阅读/润色/写作体验，模块化设计，支持自定义快捷按钮&函数插件，支持Python和C++等项目剖析&自译解功能，PDF/LaTex论文翻译&总结功能，支持并行问询多种LLM模型，支持chatglm3等本地模型。接入通义千问, deepseekcoder, 讯飞星火, 文心一言, llama2, rwkv, claude2, moss等。",
-      "stars": 69753,
+      "stars": 69752,
       "homepage": "https://github.com/binary-husky/gpt_academic/wiki/online",
       "url": "https://github.com/binary-husky/gpt_academic"
     },
@@ -505,7 +505,7 @@
       "name": "openai-cookbook",
       "full_name": "openai/openai-cookbook",
       "description": "Examples and guides for using the OpenAI API",
-      "stars": 69464,
+      "stars": 69468,
       "homepage": "https://cookbook.openai.com",
       "url": "https://github.com/openai/openai-cookbook"
     },
@@ -513,7 +513,7 @@
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
-      "stars": 68972,
+      "stars": 68988,
       "homepage": "https://firecrawl.dev",
       "url": "https://github.com/firecrawl/firecrawl"
     },
@@ -521,7 +521,7 @@
       "name": "llm-course",
       "full_name": "mlabonne/llm-course",
       "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stars": 68826,
+      "stars": 68850,
       "homepage": "https://mlabonne.github.io/blog/",
       "url": "https://github.com/mlabonne/llm-course"
     },
@@ -529,7 +529,7 @@
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "stars": 68682,
+      "stars": 68693,
       "homepage": "https://ragflow.io",
       "url": "https://github.com/infiniflow/ragflow"
     },
@@ -537,7 +537,7 @@
       "name": "lobe-chat",
       "full_name": "lobehub/lobe-chat",
       "description": "🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
-      "stars": 68464,
+      "stars": 68469,
       "homepage": "https://lobechat.com",
       "url": "https://github.com/lobehub/lobe-chat"
     },
@@ -545,7 +545,7 @@
       "name": "Prompt-Engineering-Guide",
       "full_name": "dair-ai/Prompt-Engineering-Guide",
       "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "stars": 67150,
+      "stars": 67157,
       "homepage": "https://www.promptingguide.ai/",
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
     },
@@ -561,7 +561,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65606,
+      "stars": 65619,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
@@ -569,7 +569,7 @@
       "name": "gpt4free",
       "full_name": "xtekky/gpt4free",
       "description": "The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5",
-      "stars": 65604,
+      "stars": 65605,
       "homepage": "https://t.me/g4f_channel",
       "url": "https://github.com/xtekky/gpt4free"
     },
@@ -577,7 +577,7 @@
       "name": "OpenHands",
       "full_name": "OpenHands/OpenHands",
       "description": "🙌 OpenHands: Code Less, Make More",
-      "stars": 65354,
+      "stars": 65357,
       "homepage": "https://openhands.dev",
       "url": "https://github.com/OpenHands/OpenHands"
     },
@@ -585,7 +585,7 @@
       "name": "vllm",
       "full_name": "vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "stars": 64455,
+      "stars": 64465,
       "homepage": "https://docs.vllm.ai",
       "url": "https://github.com/vllm-project/vllm"
     },
@@ -593,7 +593,7 @@
       "name": "LLaMA-Factory",
       "full_name": "hiyouga/LLaMA-Factory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "stars": 63411,
+      "stars": 63414,
       "homepage": "https://llamafactory.readthedocs.io",
       "url": "https://github.com/hiyouga/LLaMA-Factory"
     },
@@ -601,7 +601,7 @@
       "name": "open-interpreter",
       "full_name": "openinterpreter/open-interpreter",
       "description": "A natural language interface for computers",
-      "stars": 60953,
+      "stars": 60955,
       "homepage": "http://openinterpreter.com/",
       "url": "https://github.com/openinterpreter/open-interpreter"
     },
@@ -609,7 +609,7 @@
       "name": "MetaGPT",
       "full_name": "FoundationAgents/MetaGPT",
       "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-      "stars": 59785,
+      "stars": 59788,
       "homepage": "https://mgx.dev/",
       "url": "https://github.com/FoundationAgents/MetaGPT"
     },
@@ -617,7 +617,7 @@
       "name": "awesome-chatgpt-prompts-zh",
       "full_name": "PlexPt/awesome-chatgpt-prompts-zh",
       "description": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
-      "stars": 57013,
+      "stars": 57016,
       "homepage": "https://chat.aimakex.com/",
       "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
     },
@@ -625,7 +625,7 @@
       "name": "crawl4ai",
       "full_name": "unclecode/crawl4ai",
       "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-      "stars": 56678,
+      "stars": 56689,
       "homepage": "https://crawl4ai.com",
       "url": "https://github.com/unclecode/crawl4ai"
     },
@@ -633,7 +633,7 @@
       "name": "OpenBB",
       "full_name": "OpenBB-finance/OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
-      "stars": 55117,
+      "stars": 55118,
       "homepage": "https://openbb.co",
       "url": "https://github.com/OpenBB-finance/OpenBB"
     }
