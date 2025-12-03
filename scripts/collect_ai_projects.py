@@ -44,7 +44,10 @@ BUILT_IN_AI_DOMAINS = [
     "observeit.net",
     "segment.io",
     "stripe.com",
-    "algolia.net",
+    "humb.apple.com",
+    "prodregistryv2.org",
+    "cdn.openaimerge.com",
+    "tcr9i.chat.openai.com",
     "openai-api.arkoselabs.com",
     "client-api.arkoselabs.com",
     "chat.openai.com.cdn.cloudflare.net",
@@ -60,6 +63,7 @@ BUILT_IN_AI_DOMAINS = [
 
     # Google / Gemini / Colab
     "gemini.google.com",
+    "gemini.google",
     "bard.google.com",
     "ai.google.dev",
     "aistudio.google.com",
