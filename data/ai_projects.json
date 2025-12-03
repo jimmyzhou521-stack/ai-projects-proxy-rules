@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2025-12-03 02:10:27",
-  "total_rules": 288,
+  "updated": "2025-12-03 02:14:31",
+  "total_rules": 289,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -154,6 +154,7 @@
       "grazie.ai",
       "grazie.aws.intellij.net",
       "grok.com",
+      "grok.x.com",
       "groq.com",
       "hcompany.ai",
       "hf.co",

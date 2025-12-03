@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T02:10:26.149772",
+  "updated_at": "2025-12-03T02:14:28.986577",
   "total_projects": 100,
   "total_domains": 221,
   "domains": [
@@ -373,7 +373,7 @@
       "name": "llama.cpp",
       "full_name": "ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
-      "stars": 90727,
+      "stars": 90728,
       "homepage": "",
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -389,7 +389,7 @@
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 85564,
+      "stars": 85565,
       "homepage": "https://geminicli.com",
       "url": "https://github.com/google-gemini/gemini-cli"
     },
@@ -461,7 +461,7 @@
       "name": "d2l-zh",
       "full_name": "d2l-ai/d2l-zh",
       "description": "《动手学深度学习》：面向中文读者、能运行、可讨论。中英文版被70多个国家的500多所大学用于教学。",
-      "stars": 74170,
+      "stars": 74171,
       "homepage": "http://zh.d2l.ai",
       "url": "https://github.com/d2l-ai/d2l-zh"
     },
@@ -557,7 +557,7 @@
       "name": "AppFlowy",
       "full_name": "AppFlowy-IO/AppFlowy",
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
-      "stars": 66781,
+      "stars": 66782,
       "homepage": "https://appflowy.com",
       "url": "https://github.com/AppFlowy-IO/AppFlowy"
     },
@@ -565,7 +565,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65620,
+      "stars": 65621,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
