@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T03:10:30.091308",
+  "updated_at": "2025-12-03T03:13:33.317217",
   "total_projects": 100,
   "total_domains": 217,
   "domains": [
@@ -281,7 +281,7 @@
       "name": "transformers",
       "full_name": "huggingface/transformers",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
-      "stars": 153324,
+      "stars": 153325,
       "homepage": "https://huggingface.co/transformers",
       "url": "https://github.com/huggingface/transformers"
     },
@@ -297,7 +297,7 @@
       "name": "awesome-chatgpt-prompts",
       "full_name": "f/awesome-chatgpt-prompts",
       "description": "This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.",
-      "stars": 138195,
+      "stars": 138196,
       "homepage": "https://prompts.chat",
       "url": "https://github.com/f/awesome-chatgpt-prompts"
     },
@@ -305,7 +305,7 @@
       "name": "langchain",
       "full_name": "langchain-ai/langchain",
       "description": "🦜🔗 The platform for reliable agents.",
-      "stars": 120982,
+      "stars": 120983,
       "homepage": "https://docs.langchain.com/oss/python/langchain/",
       "url": "https://github.com/langchain-ai/langchain"
     },
@@ -385,7 +385,7 @@
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 85568,
+      "stars": 85569,
       "homepage": "https://geminicli.com",
       "url": "https://github.com/google-gemini/gemini-cli"
     },
@@ -393,7 +393,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81421,
+      "stars": 81422,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -449,7 +449,7 @@
       "name": "awesome-mcp-servers",
       "full_name": "punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
-      "stars": 76017,
+      "stars": 76019,
       "homepage": "https://glama.ai/mcp/servers",
       "url": "https://github.com/punkpeye/awesome-mcp-servers"
     },
@@ -513,7 +513,7 @@
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
-      "stars": 68990,
+      "stars": 68991,
       "homepage": "https://firecrawl.dev",
       "url": "https://github.com/firecrawl/firecrawl"
     },
@@ -529,7 +529,7 @@
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "stars": 68697,
+      "stars": 68698,
       "homepage": "https://ragflow.io",
       "url": "https://github.com/infiniflow/ragflow"
     },
@@ -537,7 +537,7 @@
       "name": "lobe-chat",
       "full_name": "lobehub/lobe-chat",
       "description": "🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
-      "stars": 68474,
+      "stars": 68475,
       "homepage": "https://lobechat.com",
       "url": "https://github.com/lobehub/lobe-chat"
     },
@@ -553,7 +553,7 @@
       "name": "AppFlowy",
       "full_name": "AppFlowy-IO/AppFlowy",
       "description": "Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.",
-      "stars": 66782,
+      "stars": 66783,
       "homepage": "https://appflowy.com",
       "url": "https://github.com/AppFlowy-IO/AppFlowy"
     },
@@ -617,7 +617,7 @@
       "name": "awesome-chatgpt-prompts-zh",
       "full_name": "PlexPt/awesome-chatgpt-prompts-zh",
       "description": "ChatGPT 中文调教指南。各种场景使用指南。学习怎么让它听你的话。",
-      "stars": 57019,
+      "stars": 57020,
       "homepage": "https://chat.aimakex.com/",
       "url": "https://github.com/PlexPt/awesome-chatgpt-prompts-zh"
     },
