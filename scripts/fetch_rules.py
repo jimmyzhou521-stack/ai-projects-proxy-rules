@@ -244,6 +244,43 @@ def save_rules(parser: RuleParser, output_file: str):
     print(f"   - IP ASNs: {len(rules['ip_asns'])}")
     print(f"   - Total rules: {output_data['total_rules']}")
 
+def fetch_v2fly_openai_rules() -> RuleParser:
+    """从 v2fly/domain-list-community 获取 OpenAI 规则"""
+    url = "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai"
+    parser = RuleParser()
+    
+    print(f"📥 Fetching v2fly OpenAI rules from {url}...")
+    try:
+        response = requests.get(url, timeout=10)
+        response.raise_for_status()
+        
+        for line in response.text.splitlines():
+            line = line.strip()
+            if not line or line.startswith('#'):
+                continue
+            
+            # v2fly 格式: domain 或 include:other-file
+            parts = line.split()
+            domain = parts[0]
+            
+            # 处理属性 (e.g., full:example.com)
+            if ':' in domain:
+                type_, value = domain.split(':', 1)
+                if type_ == 'full':
+                    parser.domains.add(value)
+                elif type_ == 'keyword':
+                    parser.domain_keywords.add(value)
+                # 忽略 regex 和其他类型
+            else:
+                parser.domain_suffixes.add(domain)
+                
+        print(f"✅ Fetched {len(parser.domain_suffixes)} OpenAI domains from v2fly")
+        return parser
+        
+    except Exception as e:
+        print(f"❌ Failed to fetch v2fly rules: {e}")
+        return parser
+
 def main():
     print("🚀 AI Proxy Rules Fetcher")
     print("=" * 60)
@@ -255,6 +292,9 @@ def main():
     
     # 获取GitHub规则
     github_parser = fetch_all_rules()
+    
+    # 获取 v2fly OpenAI 规则
+    v2fly_parser = fetch_v2fly_openai_rules()
     
     # 加载自定义规则
     custom_file = project_root / 'data' / 'custom_rules.txt'
@@ -278,7 +318,7 @@ def main():
     
     # 合并所有规则
     print("🔄 Merging all rules...")
-    final_parser = merge_parsers([github_parser, custom_parser, collected_parser])
+    final_parser = merge_parsers([github_parser, v2fly_parser, custom_parser, collected_parser])
     
     # 保存结果
     print()
