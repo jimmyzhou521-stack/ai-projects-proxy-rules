@@ -308,6 +308,65 @@ def fetch_v2fly_rules() -> RuleParser:
             
     return parser
 
+def fetch_blackmatrix7_rules() -> RuleParser:
+    """从 blackmatrix7/ios_rule_script 获取 AI 规则"""
+    base_url = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/"
+    services = [
+        "OpenAI",
+        "Gemini",
+        "Claude",
+        "Copilot",
+        "Midjourney",
+        "Discord",
+        "Bard",
+        "Bing",
+        "HuggingFace",
+        "Perplexity"
+    ]
+    
+    parser = RuleParser()
+    
+    for service in services:
+        # URL 结构: base/Service/Service.list
+        url = f"{base_url}{service}/{service}.list"
+        print(f"📥 Fetching blackmatrix7 rules for {service}...")
+        try:
+            response = requests.get(url, timeout=10)
+            if response.status_code == 404:
+                print(f"⚠️ blackmatrix7 rule file not found for {service}, skipping.")
+                continue
+            response.raise_for_status()
+            
+            count = 0
+            for line in response.text.splitlines():
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                
+                # 格式: DOMAIN-SUFFIX,example.com,PROXY
+                parts = line.split(',')
+                if len(parts) >= 2:
+                    rule_type = parts[0].strip().upper()
+                    value = parts[1].strip()
+                    
+                    if rule_type == 'DOMAIN-SUFFIX':
+                        parser.domain_suffixes.add(value)
+                    elif rule_type == 'DOMAIN':
+                        parser.domains.add(value)
+                    elif rule_type == 'DOMAIN-KEYWORD':
+                        parser.domain_keywords.add(value)
+                    elif rule_type == 'IP-CIDR' or rule_type == 'IP-CIDR6':
+                        parser.ip_cidrs.add(value)
+                    # 忽略其他类型
+                    count += 1
+                
+            print(f"✅ Fetched {count} rules for {service}")
+            
+        except Exception as e:
+            print(f"❌ Failed to fetch blackmatrix7 rules for {service}: {e}")
+            
+    return parser
+
 def main():
     print("🚀 AI Proxy Rules Fetcher")
     print("=" * 60)
@@ -322,16 +381,18 @@ def main():
     
     # 获取 v2fly AI 规则
     v2fly_parser = fetch_v2fly_rules()
+
+    # 获取 blackmatrix7 规则
+    blackmatrix7_parser = fetch_blackmatrix7_rules()
     
     # 加载自定义规则
     custom_file = project_root / 'data' / 'custom_rules.txt'
     custom_parser = load_custom_rules(str(custom_file))
     
-    # 加载采集的项目规则
+    # 加载 collected_projects.json 中的规则
     collected_file = project_root / 'data' / 'collected_projects.json'
     collected_parser = RuleParser()
     if collected_file.exists():
-        print(f"📄 Loading collected projects from {collected_file}")
         with open(collected_file, 'r', encoding='utf-8') as f:
             data = json.load(f)
             for domain in data.get('domains', []):
@@ -345,7 +406,7 @@ def main():
     
     # 合并所有规则
     print("🔄 Merging all rules...")
-    final_parser = merge_parsers([github_parser, v2fly_parser, custom_parser, collected_parser])
+    final_parser = merge_parsers([github_parser, v2fly_parser, blackmatrix7_parser, custom_parser, collected_parser])
     
     # 保存结果
     print()
