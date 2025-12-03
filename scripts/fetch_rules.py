@@ -252,7 +252,9 @@ def fetch_v2fly_rules() -> RuleParser:
         'anthropic',
         'google-deepmind',
         'huggingface',
-        'perplexity'
+        'perplexity',
+        'xai',
+        'groq'
     ]
     
     parser = RuleParser()
