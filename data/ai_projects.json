@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2025-12-03 02:28:14",
-  "total_rules": 326,
+  "updated": "2025-12-03 02:34:14",
+  "total_rules": 323,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -51,7 +51,6 @@
       "2noise.com",
       "agpt.co",
       "ai.com",
-      "ai.google.dev",
       "ai21.com",
       "aida.googleapis.com",
       "aider.chat",
@@ -61,8 +60,6 @@
       "aisandbox-pa.googleapis.com",
       "aistudio.google.com",
       "algolia.net",
-      "alkalicore-pa.clients6.google.com",
-      "alkalimakersuite-pa.clients6.google.com",
       "amzn.to",
       "anthropic.com",
       "anythingllm.com",
