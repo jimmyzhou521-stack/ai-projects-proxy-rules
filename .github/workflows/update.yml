@@ -132,15 +132,14 @@ jobs:
 
       - name: Create Release
         if: steps.git_commit.outputs.changes == 'true'
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ steps.git_commit.outputs.version }}
+          tag: ${{ steps.git_commit.outputs.version }}
           name: 🤖 Auto Update ${{ steps.git_commit.outputs.version }}
           body: |
             Automatic update of AI proxy rules.
             
             Update time: ${{ steps.git_commit.outputs.update_time }} (Beijing Time)
-          files: |
-            rules/*
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          artifacts: "rules/*"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
