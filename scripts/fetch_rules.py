@@ -254,7 +254,17 @@ def fetch_v2fly_rules() -> RuleParser:
         'huggingface',
         'perplexity',
         'xai',
-        'groq'
+        'groq',
+        'discord',
+        'midjourney',
+        'poe',
+        'character-ai',
+        'civitai',
+        'suno',
+        'udio',
+        'replicate',
+        'jasper',
+        'notion'
     ]
     
     parser = RuleParser()
