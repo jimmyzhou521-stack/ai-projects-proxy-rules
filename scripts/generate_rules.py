@@ -200,6 +200,10 @@ def generate_singbox_rules(rules: dict, output_file: str):
         })
         
     # 添加ASN规则
+    # 注意：Sing-box rule-set compile 目前似乎不支持 ip_asn 字段，会导致编译失败
+    # 错误信息: rules[2].ip_asn: json: unknown field "ip_asn"
+    # 因此暂时禁用 ASN 规则生成
+    """
     if rules.get('ip_asns'):
         # 确保ASN是整数列表
         asns = []
@@ -213,6 +217,7 @@ def generate_singbox_rules(rules: dict, output_file: str):
             rule_set["rules"].append({
                 "ip_asn": asns
             })
+    """
     
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(rule_set, f, indent=2, ensure_ascii=False)
