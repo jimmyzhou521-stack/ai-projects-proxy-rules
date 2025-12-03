@@ -1,7 +1,7 @@
 {
-  "updated_at": "2025-12-03T02:14:28.986577",
+  "updated_at": "2025-12-03T02:21:32.305495",
   "total_projects": 100,
-  "total_domains": 221,
+  "total_domains": 230,
   "domains": [
     "2noise.com",
     "agpt.co",
@@ -58,6 +58,7 @@
     "clients9.google.com",
     "clipdrop.co",
     "coai.dev",
+    "cocopilot.org",
     "cohere.com",
     "colab.google",
     "colab.research.google.com",
@@ -79,6 +80,9 @@
     "developerprofiles.google.com",
     "diffusionbee.com",
     "dify.ai",
+    "discord.com",
+    "discord.gg",
+    "discordapp.com",
     "edgeservices.bing.com",
     "elevenlabs.io",
     "events.statsigapi.net",
@@ -97,6 +101,7 @@
     "geminicli.com",
     "generativeai.google",
     "generativelanguage.googleapis.com",
+    "githubcopilot.com",
     "glama.ai",
     "goenhance.ai",
     "grazie.ai",
@@ -203,6 +208,8 @@
     "statsig.com",
     "statsigapi.net",
     "stripe.com",
+    "suno.ai",
+    "suno.com",
     "supabase.com",
     "sydney.bing.com",
     "synthesia.io",
@@ -213,7 +220,10 @@
     "together.ai",
     "tome.app",
     "turn.livekit.cloud",
+    "udio.com",
     "unsloth.ai",
+    "v0.dev",
+    "vercel.com",
     "vllm.ai",
     "workos.com",
     "workoscdn.com",
@@ -222,7 +232,6 @@
     "www.googleapis.com",
     "x.ai",
     "xiaobaituai.com",
-    "you.com",
     "zhihu.com"
   ],
   "keywords": [
@@ -261,7 +270,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 160238,
+      "stars": 160240,
       "homepage": "https://n8n.io",
       "url": "https://github.com/n8n-io/n8n"
     },
@@ -269,7 +278,7 @@
       "name": "stable-diffusion-webui",
       "full_name": "AUTOMATIC1111/stable-diffusion-webui",
       "description": "Stable Diffusion web UI",
-      "stars": 158695,
+      "stars": 158696,
       "homepage": "",
       "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
     },
@@ -293,7 +302,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140070,
+      "stars": 140071,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -309,7 +318,7 @@
       "name": "langchain",
       "full_name": "langchain-ai/langchain",
       "description": "🦜🔗 The platform for reliable agents.",
-      "stars": 120975,
+      "stars": 120976,
       "homepage": "https://docs.langchain.com/oss/python/langchain/",
       "url": "https://github.com/langchain-ai/langchain"
     },
@@ -325,7 +334,7 @@
       "name": "open-webui",
       "full_name": "open-webui/open-webui",
       "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "stars": 116807,
+      "stars": 116808,
       "homepage": "https://openwebui.com",
       "url": "https://github.com/open-webui/open-webui"
     },
@@ -341,7 +350,7 @@
       "name": "system-prompts-and-models-of-ai-tools",
       "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "stars": 98977,
+      "stars": 98978,
       "homepage": "",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
     },
@@ -357,7 +366,7 @@
       "name": "ComfyUI",
       "full_name": "comfyanonymous/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "stars": 95332,
+      "stars": 95334,
       "homepage": "https://www.comfy.org/",
       "url": "https://github.com/comfyanonymous/ComfyUI"
     },
@@ -365,7 +374,7 @@
       "name": "supabase",
       "full_name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "stars": 93947,
+      "stars": 93948,
       "homepage": "https://supabase.com",
       "url": "https://github.com/supabase/supabase"
     },
@@ -373,7 +382,7 @@
       "name": "llama.cpp",
       "full_name": "ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
-      "stars": 90728,
+      "stars": 90729,
       "homepage": "",
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -397,7 +406,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81413,
+      "stars": 81415,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -405,7 +414,7 @@
       "name": "LLMs-from-scratch",
       "full_name": "rasbt/LLMs-from-scratch",
       "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-      "stars": 80312,
+      "stars": 80313,
       "homepage": "https://amzn.to/4fqvn0D",
       "url": "https://github.com/rasbt/LLMs-from-scratch"
     },
@@ -469,7 +478,7 @@
       "name": "browser-use",
       "full_name": "browser-use/browser-use",
       "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
-      "stars": 73185,
+      "stars": 73186,
       "homepage": "https://browser-use.com",
       "url": "https://github.com/browser-use/browser-use"
     },
@@ -525,7 +534,7 @@
       "name": "llm-course",
       "full_name": "mlabonne/llm-course",
       "description": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
-      "stars": 68850,
+      "stars": 68851,
       "homepage": "https://mlabonne.github.io/blog/",
       "url": "https://github.com/mlabonne/llm-course"
     },
@@ -541,7 +550,7 @@
       "name": "lobe-chat",
       "full_name": "lobehub/lobe-chat",
       "description": "🤯 LobeHub - an open-source, modern design AI Agent Workspace. Supports multiple AI providers, Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.",
-      "stars": 68469,
+      "stars": 68470,
       "homepage": "https://lobechat.com",
       "url": "https://github.com/lobehub/lobe-chat"
     },
@@ -565,7 +574,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65621,
+      "stars": 65622,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
@@ -581,7 +590,7 @@
       "name": "OpenHands",
       "full_name": "OpenHands/OpenHands",
       "description": "🙌 OpenHands: Code Less, Make More",
-      "stars": 65357,
+      "stars": 65358,
       "homepage": "https://openhands.dev",
       "url": "https://github.com/OpenHands/OpenHands"
     },
@@ -589,7 +598,7 @@
       "name": "vllm",
       "full_name": "vllm-project/vllm",
       "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "stars": 64468,
+      "stars": 64470,
       "homepage": "https://docs.vllm.ai",
       "url": "https://github.com/vllm-project/vllm"
     },
@@ -637,7 +646,7 @@
       "name": "OpenBB",
       "full_name": "OpenBB-finance/OpenBB",
       "description": "Financial data platform for analysts, quants and AI agents.",
-      "stars": 55118,
+      "stars": 55119,
       "homepage": "https://openbb.co",
       "url": "https://github.com/OpenBB-finance/OpenBB"
     }
