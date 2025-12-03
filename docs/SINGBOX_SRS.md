@@ -148,26 +148,6 @@ sing-box rule-set compile --output ai-proxy.srs sing-box.json
   run: |
     cd rules
     sing-box rule-set compile --output sing-box.srs sing-box.json
-```
-
----
-
-## 📖 版本说明
-
-本项目使用 **version 2** 规则集格式：
-
-- **Version 1**: 初始版本 (sing-box 1.8.0+)
-- **Version 2**: 优化 domain_suffix 内存使用 (sing-box 1.10.0+) ⭐ **当前使用**
-- **Version 3**: 支持网络类型规则 (sing-box 1.11.0+)
-- **Version 4**: 支持网络接口规则 (sing-box 1.13.0+)
-
-> 💡 **提示**: Version 2 已经足够满足大部分场景需求，且兼容性最好。
-
----
-
-## 🔗 相关链接
-
-- [Sing-box 官方文档](https://sing-box.sagernet.org/)
 - [Rule Set 格式说明](https://sing-box.sagernet.org/configuration/rule-set/)
 - [Sing-box GitHub](https://github.com/SagerNet/sing-box)
 
