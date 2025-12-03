@@ -135,14 +135,11 @@ jobs:
 
       - name: Create Release
         if: steps.git_commit.outputs.changes == 'true'
-        uses: ncipollo/release-action@v1
-        with:
-          tag: ${{ steps.git_commit.outputs.version }}
-          name: 🤖 Auto Update ${{ steps.git_commit.outputs.version }}
-          body: |
-            Automatic update of AI proxy rules.
-            
-            Update time: ${{ steps.git_commit.outputs.update_time }} (Beijing Time)
-          artifacts: "rules/*"
-          token: ${{ secrets.GITHUB_TOKEN }}
-          allowUpdates: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.git_commit.outputs.version }}
+        run: |
+          gh release create "$TAG" \
+            --title "🤖 Auto Update $TAG" \
+            --notes "Automatic update of AI proxy rules. Update time: ${{ steps.git_commit.outputs.update_time }} (Beijing Time)" \
+            rules/*
