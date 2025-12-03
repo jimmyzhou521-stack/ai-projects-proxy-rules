@@ -73,6 +73,13 @@ BUILT_IN_AI_DOMAINS = [
     "apis.google.com",
     "www.googleapis.com",
     "ssl.gstatic.com",
+    "accounts.google.com",
+    "content.googleapis.com",
+    "oauth2.googleapis.com",
+    "openidconnect.googleapis.com",
+    "myaccount.google.com",
+    "android.googleapis.com",
+    "play.googleapis.com",
     
     # Microsoft / Copilot / Bing
     "copilot.microsoft.com",
