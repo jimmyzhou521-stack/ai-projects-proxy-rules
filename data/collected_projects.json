@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T02:21:32.305495",
+  "updated_at": "2025-12-03T02:28:12.156793",
   "total_projects": 100,
   "total_domains": 230,
   "domains": [
@@ -286,7 +286,7 @@
       "name": "ollama",
       "full_name": "ollama/ollama",
       "description": "Get up and running with OpenAI gpt-oss, DeepSeek-R1, Gemma 3 and other models.",
-      "stars": 156937,
+      "stars": 156938,
       "homepage": "https://ollama.com",
       "url": "https://github.com/ollama/ollama"
     },
@@ -302,7 +302,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140071,
+      "stars": 140073,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -366,7 +366,7 @@
       "name": "ComfyUI",
       "full_name": "comfyanonymous/ComfyUI",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "stars": 95334,
+      "stars": 95335,
       "homepage": "https://www.comfy.org/",
       "url": "https://github.com/comfyanonymous/ComfyUI"
     },
@@ -374,7 +374,7 @@
       "name": "supabase",
       "full_name": "supabase/supabase",
       "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
-      "stars": 93948,
+      "stars": 93950,
       "homepage": "https://supabase.com",
       "url": "https://github.com/supabase/supabase"
     },
@@ -382,7 +382,7 @@
       "name": "llama.cpp",
       "full_name": "ggml-org/llama.cpp",
       "description": "LLM inference in C/C++",
-      "stars": 90729,
+      "stars": 90730,
       "homepage": "",
       "url": "https://github.com/ggml-org/llama.cpp"
     },
@@ -390,7 +390,7 @@
       "name": "NextChat",
       "full_name": "ChatGPTNextWeb/NextChat",
       "description": "✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows",
-      "stars": 86575,
+      "stars": 86576,
       "homepage": "https://nextnext.chat",
       "url": "https://github.com/ChatGPTNextWeb/NextChat"
     },
@@ -406,7 +406,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81415,
+      "stars": 81416,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -486,7 +486,7 @@
       "name": "stable-diffusion",
       "full_name": "CompVis/stable-diffusion",
       "description": "A latent text-to-image diffusion model",
-      "stars": 71932,
+      "stars": 71931,
       "homepage": "https://ommer-lab.com/research/latent-diffusion-models/",
       "url": "https://github.com/CompVis/stable-diffusion"
     },
@@ -526,7 +526,7 @@
       "name": "firecrawl",
       "full_name": "firecrawl/firecrawl",
       "description": "🔥 The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data",
-      "stars": 68988,
+      "stars": 68989,
       "homepage": "https://firecrawl.dev",
       "url": "https://github.com/firecrawl/firecrawl"
     },
@@ -542,7 +542,7 @@
       "name": "ragflow",
       "full_name": "infiniflow/ragflow",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
-      "stars": 68693,
+      "stars": 68694,
       "homepage": "https://ragflow.io",
       "url": "https://github.com/infiniflow/ragflow"
     },
@@ -558,7 +558,7 @@
       "name": "Prompt-Engineering-Guide",
       "full_name": "dair-ai/Prompt-Engineering-Guide",
       "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "stars": 67158,
+      "stars": 67159,
       "homepage": "https://www.promptingguide.ai/",
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
     },
@@ -606,7 +606,7 @@
       "name": "LLaMA-Factory",
       "full_name": "hiyouga/LLaMA-Factory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "stars": 63415,
+      "stars": 63416,
       "homepage": "https://llamafactory.readthedocs.io",
       "url": "https://github.com/hiyouga/LLaMA-Factory"
     },

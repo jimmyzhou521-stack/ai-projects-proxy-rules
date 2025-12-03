@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2025-12-03 02:21:35",
+  "updated": "2025-12-03 02:28:14",
   "total_rules": 326,
   "sources": [
     "ACL4SSR",
