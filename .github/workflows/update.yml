@@ -105,11 +105,17 @@ jobs:
           # Check if there are changes to commit
           if ! git diff --quiet || ! git diff --staged --quiet; then
             echo "changes=true" >> $GITHUB_OUTPUT
+            
+            # 设置时区为上海
+            export TZ='Asia/Shanghai'
             # Generate version based on date and time to ensure unique releases
             VERSION="v$(date +'%Y.%m.%d-%H%M')"
-            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            UPDATE_TIME="$(date +'%Y-%m-%d %H:%M:%S')"
             
-            git commit -m "🤖 Auto update: $(date +'%Y-%m-%d %H:%M:%S')"
+            echo "version=$VERSION" >> $GITHUB_OUTPUT
+            echo "update_time=$UPDATE_TIME" >> $GITHUB_OUTPUT
+            
+            git commit -m "🤖 Auto update: $UPDATE_TIME"
             
             # Create and push tag
             git tag "$VERSION"
@@ -129,7 +135,7 @@ jobs:
           body: |
             Automatic update of AI proxy rules.
             
-            Update time: $(date +'%Y-%m-%d %H:%M:%S')
+            Update time: ${{ steps.git_commit.outputs.update_time }} (Beijing Time)
           files: |
             rules/*
         env:
