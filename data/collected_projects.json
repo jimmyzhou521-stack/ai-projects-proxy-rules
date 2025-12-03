@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-03T02:03:47.415617",
+  "updated_at": "2025-12-03T02:07:16.223337",
   "total_projects": 100,
   "total_domains": 221,
   "domains": [
@@ -261,7 +261,7 @@
       "name": "n8n",
       "full_name": "n8n-io/n8n",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "stars": 160236,
+      "stars": 160237,
       "homepage": "https://n8n.io",
       "url": "https://github.com/n8n-io/n8n"
     },
@@ -293,7 +293,7 @@
       "name": "langflow",
       "full_name": "langflow-ai/langflow",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
-      "stars": 140069,
+      "stars": 140070,
       "homepage": "http://www.langflow.org",
       "url": "https://github.com/langflow-ai/langflow"
     },
@@ -317,7 +317,7 @@
       "name": "dify",
       "full_name": "langgenius/dify",
       "description": "Production-ready platform for agentic workflow development.",
-      "stars": 120368,
+      "stars": 120369,
       "homepage": "https://dify.ai",
       "url": "https://github.com/langgenius/dify"
     },
@@ -341,7 +341,7 @@
       "name": "system-prompts-and-models-of-ai-tools",
       "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-      "stars": 98975,
+      "stars": 98977,
       "homepage": "",
       "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
     },
@@ -389,7 +389,7 @@
       "name": "gemini-cli",
       "full_name": "google-gemini/gemini-cli",
       "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "stars": 85563,
+      "stars": 85564,
       "homepage": "https://geminicli.com",
       "url": "https://github.com/google-gemini/gemini-cli"
     },
@@ -397,7 +397,7 @@
       "name": "awesome-llm-apps",
       "full_name": "Shubhamsaboo/awesome-llm-apps",
       "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
-      "stars": 81412,
+      "stars": 81413,
       "homepage": "https://www.theunwindai.com",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
@@ -549,7 +549,7 @@
       "name": "Prompt-Engineering-Guide",
       "full_name": "dair-ai/Prompt-Engineering-Guide",
       "description": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
-      "stars": 67157,
+      "stars": 67158,
       "homepage": "https://www.promptingguide.ai/",
       "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
     },
@@ -565,7 +565,7 @@
       "name": "PaddleOCR",
       "full_name": "PaddlePaddle/PaddleOCR",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
-      "stars": 65619,
+      "stars": 65620,
       "homepage": "https://www.paddleocr.ai",
       "url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
@@ -597,7 +597,7 @@
       "name": "LLaMA-Factory",
       "full_name": "hiyouga/LLaMA-Factory",
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "stars": 63414,
+      "stars": 63415,
       "homepage": "https://llamafactory.readthedocs.io",
       "url": "https://github.com/hiyouga/LLaMA-Factory"
     },
