@@ -16,6 +16,7 @@ from pathlib import Path
 BUILT_IN_AI_DOMAINS = [
     # OpenAI / ChatGPT
     "openai.com",
+    f"debug-{datetime.now().strftime('%Y%m%d-%H%M%S')}.openai.com", # Force update
     "chatgpt.com",
     "ai.com",
     "chat.com",
