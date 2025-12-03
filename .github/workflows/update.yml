@@ -55,6 +55,8 @@ jobs:
       
       - name: Collect AI projects
         run: |
+          echo "🧹 Cleaning data directory..."
+          rm -f data/*.json
           cd scripts
           python collect_ai_projects.py
 
@@ -98,10 +100,10 @@ jobs:
           git add -A
           
           echo "🔍 Debug: Checking collect_ai_projects.py content:"
-          grep "waa-pa.clients6.google.com" scripts/collect_ai_projects.py || echo "❌ Domain not found in script!"
+          grep "accounts.google.com" scripts/collect_ai_projects.py || echo "❌ Domain not found in script!"
           
           echo "🔍 Debug: Checking generated sing-box.json content:"
-          grep "chatgpt.livekit.cloud" rules/sing-box.json || echo "❌ New domain not found in rules!"
+          grep "accounts.google.com" rules/sing-box.json || echo "❌ New domain not found in rules!"
           
           echo "🔍 Debug: Git status:"
           git status
