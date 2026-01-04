@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-01-03 20:14:57",
-  "total_rules": 525,
+  "updated": "2026-01-04 20:15:10",
+  "total_rules": 526,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -122,6 +122,7 @@
       "bngpiglbalmenaabohcooocpnljgfemj",
       "browser-intake-datadoghq.com",
       "browser-use.com",
+      "c.gle",
       "cache.pack.google.com",
       "canva.com",
       "cbsnews.com",
@@ -184,7 +185,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260103-201448.openai.com",
+      "debug-20260104-201459.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
