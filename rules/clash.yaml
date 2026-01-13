@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-01-12 20:16:50
-# 规则总数: 529
+# 更新时间: 2026-01-13 20:16:30
+# 规则总数: 538
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -15,13 +15,18 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
+  - DOMAIN,antigravity-pa.googleapis.com
+  - DOMAIN,antigravity.googleapis.com
   - DOMAIN,api.msn.com
   - DOMAIN,api.statsig.com
   - DOMAIN,assets.msn.com
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,cdn.usefathom.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,cloudaicompanion.googleapis.com
+  - DOMAIN,cloudcode-pa.googleapis.com
   - DOMAIN,copilot.microsoft.com
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
   - DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
@@ -32,6 +37,8 @@ payload:
   - DOMAIN,location.microsoft.com
   - DOMAIN,makersuite.google.com
   - DOMAIN,mtalk.google.com
+  - DOMAIN,notebooklm-pa.googleapis.com
+  - DOMAIN,notebooklm.googleapis.com
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,odc.officeapps.live.com
   - DOMAIN,openai-api.arkoselabs.com
@@ -86,6 +93,8 @@ payload:
   - DOMAIN-SUFFIX,amzn.to
   - DOMAIN-SUFFIX,android.googleapis.com
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,antigravity-unleash.goog
+  - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,anythingllm.com
   - DOMAIN-SUFFIX,api.microsoftapp.net
   - DOMAIN-SUFFIX,api.msn.com
@@ -179,7 +188,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260112-201643.openai.com
+  - DOMAIN-SUFFIX,debug-20260113-201622.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
