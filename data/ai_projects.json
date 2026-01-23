@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-01-22 20:17:48",
+  "updated": "2026-01-23 20:17:15",
   "total_rules": 538,
   "sources": [
     "ACL4SSR",
@@ -197,7 +197,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260122-201739.openai.com",
+      "debug-20260123-201705.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -349,7 +349,7 @@
       "nav-edge.smartscreen.microsoft.com",
       "netdata.cloud",
       "nexa.ai",
-      "nextnext.chat",
+      "nextchat.club",
       "nomic.ai",
       "notebooklm.google",
       "notebooklm.google.com",
