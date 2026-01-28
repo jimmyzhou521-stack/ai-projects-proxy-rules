@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-01-27 20:15:33
-# 规则总数: 539
+# 更新时间: 2026-01-28 20:21:12
+# 规则总数: 540
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -94,7 +94,6 @@ payload:
   - DOMAIN-SUFFIX,android.googleapis.com
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,antigravity-unleash.goog
-  - DOMAIN-SUFFIX,antigravity-unleash.goog:
   - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,anythingllm.com
   - DOMAIN-SUFFIX,api.microsoftapp.net
@@ -181,6 +180,7 @@ payload:
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,craiyon.com
   - DOMAIN-SUFFIX,crawl4ai.com
+  - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,crl.pki.goog
   - DOMAIN-SUFFIX,ct.sendgrid.net
   - DOMAIN-SUFFIX,cursor-cdn.com
@@ -189,7 +189,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260127-201526.openai.com
+  - DOMAIN-SUFFIX,debug-20260128-202103.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -495,6 +495,7 @@ payload:
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
   - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,bing
   - DOMAIN-KEYWORD,chatgpt
   - DOMAIN-KEYWORD,claude
