@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-01-29 20:21:26",
+  "updated": "2026-01-30 20:20:09",
   "total_rules": 540,
   "sources": [
     "ACL4SSR",
@@ -197,7 +197,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260129-202115.openai.com",
+      "debug-20260130-202000.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -339,7 +339,6 @@
       "microsofttranslator.com",
       "midjourney.com",
       "mistral.ai",
-      "molt.bot",
       "msftoffers.com",
       "msn.com",
       "mtalk.google.com",
@@ -381,6 +380,7 @@
       "openaicom.imgix.net",
       "openaicomproductionae4b.blob.core.windows.net",
       "openart.ai",
+      "openclaw.ai",
       "openhands.dev",
       "openidconnect.googleapis.com",
       "openinterpreter.com",
