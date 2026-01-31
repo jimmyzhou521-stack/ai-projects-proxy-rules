@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-01-30 20:20:09",
-  "total_rules": 540,
+  "updated": "2026-01-31 20:16:48",
+  "total_rules": 539,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -197,7 +197,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260130-202000.openai.com",
+      "debug-20260131-201640.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -295,7 +295,6 @@
       "iopaint.com",
       "jan.ai",
       "jasper.ai",
-      "jeecg.com",
       "jetbrains.ai",
       "jules.google",
       "jules.google.com",

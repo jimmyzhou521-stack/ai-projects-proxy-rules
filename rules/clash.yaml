@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-01-30 20:20:09
-# 规则总数: 540
+# 更新时间: 2026-01-31 20:16:48
+# 规则总数: 539
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -189,7 +189,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260130-202000.openai.com
+  - DOMAIN-SUFFIX,debug-20260131-201640.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -287,7 +287,6 @@ payload:
   - DOMAIN-SUFFIX,iopaint.com
   - DOMAIN-SUFFIX,jan.ai
   - DOMAIN-SUFFIX,jasper.ai
-  - DOMAIN-SUFFIX,jeecg.com
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,jules.google
   - DOMAIN-SUFFIX,jules.google.com
