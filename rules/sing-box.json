@@ -62,6 +62,7 @@
         "2mdn.net",
         "2noise.com",
         "a.config.skype.com",
+        "a.nel.cloudflare.com",
         "accounts.google.com",
         "agpt.co",
         "ai.com",
@@ -190,7 +191,7 @@
         "cursorapi.com",
         "d2l.ai",
         "dall-e.com",
-        "debug-20260205-202414.openai.com",
+        "debug-20260206-202453.openai.com",
         "deeplivecam.net",
         "deepmind.com",
         "deepmind.google",
@@ -498,6 +499,7 @@
         "zhihu.com"
       ],
       "domain_keyword": [
+        "anthropic",
         "antigravity",
         "bing",
         "chatgpt",
@@ -505,6 +507,7 @@
         "cohere",
         "colab",
         "copilot",
+        "datadoghq",
         "developerprofiles",
         "edgeassetservice",
         "generativelanguage",

@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-02-05 20:24:22",
-  "total_rules": 541,
+  "updated": "2026-02-06 20:25:03",
+  "total_rules": 544,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -69,6 +69,7 @@
       "2mdn.net",
       "2noise.com",
       "a.config.skype.com",
+      "a.nel.cloudflare.com",
       "accounts.google.com",
       "agpt.co",
       "ai.com",
@@ -197,7 +198,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260205-202414.openai.com",
+      "debug-20260206-202453.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -505,6 +506,7 @@
       "zhihu.com"
     ],
     "domain_keywords": [
+      "anthropic",
       "antigravity",
       "bing",
       "chatgpt",
@@ -512,6 +514,7 @@
       "cohere",
       "colab",
       "copilot",
+      "datadoghq",
       "developerprofiles",
       "edgeassetservice",
       "generativelanguage",
