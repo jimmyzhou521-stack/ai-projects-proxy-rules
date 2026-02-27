@@ -1,5 +1,5 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-02-26 20:27:54
+# 更新时间: 2026-02-27 20:20:03
 # 规则总数: 543
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
@@ -46,6 +46,7 @@ payload:
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicom.imgix.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
   - DOMAIN,pplx-res.cloudinary.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,r.bing.com
@@ -166,7 +167,6 @@ payload:
   - DOMAIN-SUFFIX,clients8.google.com
   - DOMAIN-SUFFIX,clients9.google.com
   - DOMAIN-SUFFIX,clipdrop.co
-  - DOMAIN-SUFFIX,coai.dev
   - DOMAIN-SUFFIX,cocopilot.org
   - DOMAIN-SUFFIX,codeium.com
   - DOMAIN-SUFFIX,codeiumdata.com
@@ -178,6 +178,7 @@ payload:
   - DOMAIN-SUFFIX,content.googleapis.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,copy.ai
+  - DOMAIN-SUFFIX,cowagent.ai
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,craiyon.com
   - DOMAIN-SUFFIX,crawl4ai.com
@@ -190,7 +191,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260226-202744.openai.com
+  - DOMAIN-SUFFIX,debug-20260227-201957.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -314,7 +315,6 @@ payload:
   - DOMAIN-SUFFIX,latest-swx.cdn.skype.com
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,leonardo.ai
-  - DOMAIN-SUFFIX,link-ai.tech
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,livekit.cloud
   - DOMAIN-SUFFIX,livekit.io
