@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-03-04 20:24:43",
-  "total_rules": 544,
+  "updated": "2026-03-05 20:30:02",
+  "total_rules": 545,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -175,6 +175,7 @@
       "clients8.google.com",
       "clients9.google.com",
       "clipdrop.co",
+      "cloudcode-pa.googleapis.com",
       "cocopilot.org",
       "codeium.com",
       "codeiumdata.com",
@@ -199,7 +200,7 @@
       "cursorapi.com",
       "d2l.ai",
       "dall-e.com",
-      "debug-20260304-202435.openai.com",
+      "debug-20260305-202956.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
