@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-03-09 20:24:48
-# 规则总数: 545
+# 更新时间: 2026-03-10 20:24:50
+# 规则总数: 551
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -98,6 +98,8 @@ payload:
   - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,antigravity.google
   - DOMAIN-SUFFIX,anythingllm.com
+  - DOMAIN-SUFFIX,api.github.com
+  - DOMAIN-SUFFIX,api.githubcopilot.com
   - DOMAIN-SUFFIX,api.microsoftapp.net
   - DOMAIN-SUFFIX,api.msn.com
   - DOMAIN-SUFFIX,api.notion.com
@@ -106,6 +108,7 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,app-measurement.net
   - DOMAIN-SUFFIX,appflowy.com
+  - DOMAIN-SUFFIX,applicationinsights.azure.com
   - DOMAIN-SUFFIX,arxiv.org
   - DOMAIN-SUFFIX,assets.msn.com
   - DOMAIN-SUFFIX,auth0.com
@@ -177,6 +180,7 @@ payload:
   - DOMAIN-SUFFIX,comfy.org
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,content.googleapis.com
+  - DOMAIN-SUFFIX,context7.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,copy.ai
   - DOMAIN-SUFFIX,cowagent.ai
@@ -192,7 +196,7 @@ payload:
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260309-202441.openai.com
+  - DOMAIN-SUFFIX,debug-20260310-202441.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -255,6 +259,8 @@ payload:
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,github.gallery.vsassets.io
+  - DOMAIN-SUFFIX,github.gallerycdn.vsassets.io
   - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,glama.ai
   - DOMAIN-SUFFIX,goenhance.ai
