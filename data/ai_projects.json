@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-03-24 20:33:15",
-  "total_rules": 553,
+  "updated": "2026-03-25 20:30:44",
+  "total_rules": 552,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -207,7 +207,7 @@
       "d2l.ai",
       "dall-e.com",
       "daytona.io",
-      "debug-20260324-203308.openai.com",
+      "debug-20260325-203033.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -273,7 +273,6 @@
       "github.gallery.vsassets.io",
       "github.gallerycdn.vsassets.io",
       "githubcopilot.com",
-      "glama.ai",
       "goenhance.ai",
       "goo.gl",
       "googleapis.cn",
