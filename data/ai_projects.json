@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-03-25 20:30:44",
+  "updated": "2026-03-26 20:29:00",
   "total_rules": 552,
   "sources": [
     "ACL4SSR",
@@ -207,7 +207,7 @@
       "d2l.ai",
       "dall-e.com",
       "daytona.io",
-      "debug-20260325-203033.openai.com",
+      "debug-20260326-202848.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
