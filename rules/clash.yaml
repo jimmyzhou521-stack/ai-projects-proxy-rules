@@ -1,5 +1,5 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-04-08 20:35:05
+# 更新时间: 2026-04-09 20:41:11
 # 规则总数: 552
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
@@ -60,7 +60,6 @@ payload:
   - DOMAIN-SUFFIX,1e100.net
   - DOMAIN-SUFFIX,265.com
   - DOMAIN-SUFFIX,2mdn.net
-  - DOMAIN-SUFFIX,2noise.com
   - DOMAIN-SUFFIX,a.config.skype.com
   - DOMAIN-SUFFIX,a.nel.cloudflare.com
   - DOMAIN-SUFFIX,ab.chatgpt.com
@@ -196,7 +195,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260408-203456.openai.com
+  - DOMAIN-SUFFIX,debug-20260409-204101.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -361,6 +360,7 @@ payload:
   - DOMAIN-SUFFIX,notion.site
   - DOMAIN-SUFFIX,notion.so
   - DOMAIN-SUFFIX,notionusercontent.com
+  - DOMAIN-SUFFIX,nousresearch.com
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oauth2.googleapis.com
