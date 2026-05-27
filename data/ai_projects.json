@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-05-26 21:29:18",
+  "updated": "2026-05-27 21:46:40",
   "total_rules": 554,
   "sources": [
     "ACL4SSR",
@@ -161,6 +161,7 @@
       "civitai.com",
       "cjfdbemmaeeohgibnhdhlakiahifjjcf",
       "clau.de",
+      "claude-mem.ai",
       "claude.ai",
       "claude.com",
       "claudemcpclient.com",
@@ -202,7 +203,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20260526-212907.openai.com",
+      "debug-20260527-214627.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -357,7 +358,6 @@
       "n8n.io",
       "nanobot.wiki",
       "nav-edge.smartscreen.microsoft.com",
-      "netdata.cloud",
       "nexa.ai",
       "nextchat.club",
       "nomic.ai",
