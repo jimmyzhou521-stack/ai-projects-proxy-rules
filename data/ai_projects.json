@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-05-29 21:46:10",
-  "total_rules": 553,
+  "updated": "2026-05-30 20:46:25",
+  "total_rules": 554,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -203,7 +203,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20260529-214559.openai.com",
+      "debug-20260530-204615.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -337,6 +337,7 @@
       "live.com",
       "livekit.cloud",
       "livekit.io",
+      "llama.app",
       "lmsudio.ai",
       "lmsys.org",
       "lobehub.com",
