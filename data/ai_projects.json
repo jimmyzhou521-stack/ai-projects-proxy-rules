@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-06-05 21:17:39",
-  "total_rules": 555,
+  "updated": "2026-06-06 20:55:40",
+  "total_rules": 556,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -204,7 +204,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20260605-211731.openai.com",
+      "debug-20260606-205528.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -374,6 +374,7 @@
       "notionusercontent.com",
       "nousresearch.com",
       "oaistatic.com",
+      "oaistatsig.com",
       "oaiusercontent.com",
       "oauth2.googleapis.com",
       "observeit.net",
