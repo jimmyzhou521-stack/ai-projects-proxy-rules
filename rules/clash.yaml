@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-06-06 20:55:40
-# 规则总数: 556
+# 更新时间: 2026-06-07 21:01:53
+# 规则总数: 554
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -102,7 +102,6 @@ payload:
   - DOMAIN-SUFFIX,api.githubcopilot.com
   - DOMAIN-SUFFIX,api.microsoftapp.net
   - DOMAIN-SUFFIX,api.msn.com
-  - DOMAIN-SUFFIX,api.notion.com
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,apis.google.com
   - DOMAIN-SUFFIX,app-measurement.com
@@ -153,7 +152,6 @@ payload:
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,cjfdbemmaeeohgibnhdhlakiahifjjcf
   - DOMAIN-SUFFIX,clau.de
-  - DOMAIN-SUFFIX,claude-mem.ai
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,claudemcpclient.com
@@ -196,7 +194,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260606-205528.openai.com
+  - DOMAIN-SUFFIX,debug-20260607-210144.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -293,7 +291,6 @@ payload:
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,humb.apple.com
   - DOMAIN-SUFFIX,identrust.com
-  - DOMAIN-SUFFIX,img.notionusercontent.com
   - DOMAIN-SUFFIX,in.appcenter.ms
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
@@ -358,6 +355,7 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,notion-static.com
+  - DOMAIN-SUFFIX,notion-status.com
   - DOMAIN-SUFFIX,notion.ai
   - DOMAIN-SUFFIX,notion.com
   - DOMAIN-SUFFIX,notion.new
