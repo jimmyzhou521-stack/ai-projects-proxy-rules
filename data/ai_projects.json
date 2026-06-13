@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-06-12 21:25:17",
+  "updated": "2026-06-13 21:03:50",
   "total_rules": 553,
   "sources": [
     "ACL4SSR",
@@ -161,6 +161,7 @@
       "civitai.com",
       "cjfdbemmaeeohgibnhdhlakiahifjjcf",
       "clau.de",
+      "claude-mem.ai",
       "claude.ai",
       "claude.com",
       "claudemcpclient.com",
@@ -203,7 +204,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20260612-212504.openai.com",
+      "debug-20260613-210343.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -511,8 +512,7 @@
       "youtube-nocookie.com",
       "youtube.com",
       "yt.be",
-      "ytimg.com",
-      "zhihu.com"
+      "ytimg.com"
     ],
     "domain_keywords": [
       "anthropic",
