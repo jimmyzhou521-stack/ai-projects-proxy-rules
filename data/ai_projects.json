@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-06-17 21:53:56",
+  "updated": "2026-06-18 21:58:28",
   "total_rules": 552,
   "sources": [
     "ACL4SSR",
@@ -138,6 +138,7 @@
       "c.gle",
       "cache.pack.google.com",
       "canva.com",
+      "caveman.so",
       "cbsnews.com",
       "cdn.designerapp.osi.office.net",
       "cdn.office.net",
@@ -203,7 +204,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20260617-215348.openai.com",
+      "debug-20260618-215822.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -267,7 +268,6 @@
       "geminicli.com",
       "generativeai.google",
       "generativelanguage.googleapis.com",
-      "getcaveman.dev",
       "ggpht.com",
       "github.gallery.vsassets.io",
       "github.gallerycdn.vsassets.io",
