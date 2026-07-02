@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-07-01 21:19:27
-# 规则总数: 549
+# 更新时间: 2026-07-02 20:55:20
+# 规则总数: 553
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -42,7 +42,9 @@ payload:
   - DOMAIN,o33249.ingest.sentry.io
   - DOMAIN,odc.officeapps.live.com
   - DOMAIN,openai-api.arkoselabs.com
+  - DOMAIN,openai.qualtrics.com
   - DOMAIN,openaiapi-site.azureedge.net
+  - DOMAIN,openaiassets.blob.core.windows.net
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicom.imgix.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
@@ -195,7 +197,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260701-211921.openai.com
+  - DOMAIN-SUFFIX,debug-20260702-205513.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -408,6 +410,7 @@ payload:
   - DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
   - DOMAIN-SUFFIX,promptingguide.ai
   - DOMAIN-SUFFIX,prompts.chat
+  - DOMAIN-SUFFIX,pytorch.org
   - DOMAIN-SUFFIX,r.bing.com
   - DOMAIN-SUFFIX,r.msftstatic.com
   - DOMAIN-SUFFIX,r.staging-bing-int.com
@@ -462,6 +465,7 @@ payload:
   - DOMAIN-SUFFIX,synthesia.io
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tcr9i.chat.openai.com
+  - DOMAIN-SUFFIX,tensorflow.org
   - DOMAIN-SUFFIX,theunwindai.com
   - DOMAIN-SUFFIX,together.ai
   - DOMAIN-SUFFIX,tome.app
