@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-07-07 21:15:41
-# 规则总数: 553
+# 更新时间: 2026-07-08 20:57:59
+# 规则总数: 523
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -27,12 +27,10 @@ payload:
   - DOMAIN,cloudcode-pa.googleapis.com
   - DOMAIN,copilot.microsoft.com
   - DOMAIN,daily-cloudcode-pa.googleapis.com
-  - DOMAIN,discord-attachments-uploads-prd.storage.googleapis.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
   - DOMAIN,gemini.google.com
   - DOMAIN,generativelanguage.googleapis.com
-  - DOMAIN,hammerandchisel.ssl.zendesk.com
   - DOMAIN,in.appcenter.ms
   - DOMAIN,location.microsoft.com
   - DOMAIN,makersuite.google.com
@@ -53,7 +51,6 @@ payload:
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
-  - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN,services.bingapis.com
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,sydney.bing.com
@@ -76,8 +73,6 @@ payload:
   - DOMAIN-SUFFIX,aida.googleapis.com
   - DOMAIN-SUFFIX,aider.chat
   - DOMAIN-SUFFIX,aimakex.com
-  - DOMAIN-SUFFIX,airhorn.solutions
-  - DOMAIN-SUFFIX,airhornbot.com
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,akam.bing.com
@@ -119,7 +114,6 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,bat.bing.com
   - DOMAIN-SUFFIX,beautiful.ai
-  - DOMAIN-SUFFIX,bigbeans.solutions
   - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,bing.net
@@ -153,12 +147,8 @@ payload:
   - DOMAIN-SUFFIX,chinacloudapp.cn
   - DOMAIN-SUFFIX,civitai.com
   - DOMAIN-SUFFIX,cjfdbemmaeeohgibnhdhlakiahifjjcf
-  - DOMAIN-SUFFIX,clau.de
-  - DOMAIN-SUFFIX,claude-mem.ai
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claude.com
-  - DOMAIN-SUFFIX,claudemcpclient.com
-  - DOMAIN-SUFFIX,claudemcpcontent.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,clickserve.dartsearch.net
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
@@ -197,7 +187,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260707-211530.openai.com
+  - DOMAIN-SUFFIX,debug-20260708-205733.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -210,28 +200,9 @@ payload:
   - DOMAIN-SUFFIX,dict.bing.com.cn
   - DOMAIN-SUFFIX,diffusionbee.com
   - DOMAIN-SUFFIX,dify.ai
-  - DOMAIN-SUFFIX,dis.gd
-  - DOMAIN-SUFFIX,discord-activities.com
-  - DOMAIN-SUFFIX,discord.co
   - DOMAIN-SUFFIX,discord.com
-  - DOMAIN-SUFFIX,discord.design
-  - DOMAIN-SUFFIX,discord.dev
   - DOMAIN-SUFFIX,discord.gg
-  - DOMAIN-SUFFIX,discord.gift
-  - DOMAIN-SUFFIX,discord.gifts
-  - DOMAIN-SUFFIX,discord.media
-  - DOMAIN-SUFFIX,discord.new
-  - DOMAIN-SUFFIX,discord.store
-  - DOMAIN-SUFFIX,discord.tools
-  - DOMAIN-SUFFIX,discordactivities.com
   - DOMAIN-SUFFIX,discordapp.com
-  - DOMAIN-SUFFIX,discordapp.io
-  - DOMAIN-SUFFIX,discordapp.net
-  - DOMAIN-SUFFIX,discordcdn.com
-  - DOMAIN-SUFFIX,discordmerch.com
-  - DOMAIN-SUFFIX,discordpartygames.com
-  - DOMAIN-SUFFIX,discordsays.com
-  - DOMAIN-SUFFIX,discordstatus.com
   - DOMAIN-SUFFIX,dl.google.com
   - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,earth-pa.clients6.google.com
@@ -484,7 +455,6 @@ payload:
   - DOMAIN-SUFFIX,virtualearth.net
   - DOMAIN-SUFFIX,vllm.ai
   - DOMAIN-SUFFIX,waa-pa.clients6.google.com
-  - DOMAIN-SUFFIX,watchanimeattheoffice.com
   - DOMAIN-SUFFIX,windows.net
   - DOMAIN-SUFFIX,workos.com
   - DOMAIN-SUFFIX,workos.imgix.net
