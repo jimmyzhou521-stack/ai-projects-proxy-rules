@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-07-19 20:38:10
-# 规则总数: 554
+# 更新时间: 2026-07-20 21:02:02
+# 规则总数: 555
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -147,6 +147,7 @@ payload:
   - DOMAIN-SUFFIX,character.ai
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN-SUFFIX,chatboxai.app?utm_medium=github
   - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,chatgpt.livekit.cloud
   - DOMAIN-SUFFIX,chatgpt.site
@@ -196,7 +197,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260719-203804.openai.com
+  - DOMAIN-SUFFIX,debug-20260720-210155.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -389,6 +390,7 @@ payload:
   - DOMAIN-SUFFIX,openclaw.ai
   - DOMAIN-SUFFIX,openhands.dev
   - DOMAIN-SUFFIX,openidconnect.googleapis.com
+  - DOMAIN-SUFFIX,openmontage.video
   - DOMAIN-SUFFIX,openvino.ai
   - DOMAIN-SUFFIX,openwebui.com
   - DOMAIN-SUFFIX,paddleocr.com
@@ -422,7 +424,6 @@ payload:
   - DOMAIN-SUFFIX,raka.staging-bing-int.com
   - DOMAIN-SUFFIX,rcf.bing.com
   - DOMAIN-SUFFIX,rcf.staging-bing-int.com
-  - DOMAIN-SUFFIX,readthedocs.io
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,recraft.ai
   - DOMAIN-SUFFIX,replicate.com
