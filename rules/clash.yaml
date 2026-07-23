@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-07-22 20:55:56
-# 规则总数: 552
+# 更新时间: 2026-07-23 20:52:37
+# 规则总数: 555
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -48,6 +48,8 @@ payload:
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicom.imgix.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
+  - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+  - DOMAIN,pplx-res.cloudinary.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
@@ -194,7 +196,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260722-205547.openai.com
+  - DOMAIN-SUFFIX,debug-20260723-205227.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
@@ -395,6 +397,7 @@ payload:
   - DOMAIN-SUFFIX,paperswithcode.com
   - DOMAIN-SUFFIX,people-pa.clients6.google.com
   - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,perplexity.com
   - DOMAIN-SUFFIX,phind.com
   - DOMAIN-SUFFIX,platform.bing.com
   - DOMAIN-SUFFIX,platform.twitter.com
