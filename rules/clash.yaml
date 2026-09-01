@@ -1,6 +1,6 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-08-31 23:30:38
-# 规则总数: 556
+# 更新时间: 2026-09-01 22:14:02
+# 规则总数: 557
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
 payload:
@@ -74,8 +74,7 @@ payload:
   - DOMAIN-SUFFIX,ai21.com
   - DOMAIN-SUFFIX,aicode.googleapis.com
   - DOMAIN-SUFFIX,aida.googleapis.com
-  - DOMAIN-SUFFIX,aider.chat
-  - DOMAIN-SUFFIX,aimakex.com
+  - DOMAIN-SUFFIX,aiengineeringfromscratch.com
   - DOMAIN-SUFFIX,airhorn.solutions
   - DOMAIN-SUFFIX,airhornbot.com
   - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
@@ -100,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,antigravity-unleash.goog
   - DOMAIN-SUFFIX,antigravity.google
+  - DOMAIN-SUFFIX,apache.org
   - DOMAIN-SUFFIX,api.github.com
   - DOMAIN-SUFFIX,api.githubcopilot.com
   - DOMAIN-SUFFIX,api.microsoftapp.net
@@ -179,15 +179,15 @@ payload:
   - DOMAIN-SUFFIX,cohere.com
   - DOMAIN-SUFFIX,colab.google
   - DOMAIN-SUFFIX,colab.research.google.com
+  - DOMAIN-SUFFIX,colossalai.org
   - DOMAIN-SUFFIX,comfy.org
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,content.googleapis.com
   - DOMAIN-SUFFIX,copilot.microsoft.com
   - DOMAIN-SUFFIX,copy.ai
-  - DOMAIN-SUFFIX,cowagent.ai
+  - DOMAIN-SUFFIX,coqui.ai
   - DOMAIN-SUFFIX,coze.com
   - DOMAIN-SUFFIX,craiyon.com
-  - DOMAIN-SUFFIX,crawl4ai.com
   - DOMAIN-SUFFIX,crixet.com
   - DOMAIN-SUFFIX,crl.pki.goog
   - DOMAIN-SUFFIX,ct.sendgrid.net
@@ -195,13 +195,14 @@ payload:
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,d2l.ai
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20260831-233028.openai.com
+  - DOMAIN-SUFFIX,debug-20260901-221300.openai.com
   - DOMAIN-SUFFIX,deeplivecam.net
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,deepseek.com
-  - DOMAIN-SUFFIX,deerflow.tech
+  - DOMAIN-SUFFIX,deepspeed.ai
   - DOMAIN-SUFFIX,delve.office.com
   - DOMAIN-SUFFIX,descript.com
   - DOMAIN-SUFFIX,designerapp.officeapps.live.com
@@ -235,19 +236,18 @@ payload:
   - DOMAIN-SUFFIX,dl.l.google.com
   - DOMAIN-SUFFIX,earth-pa.clients6.google.com
   - DOMAIN-SUFFIX,earth.google.com
-  - DOMAIN-SUFFIX,ecc.tools
   - DOMAIN-SUFFIX,edge.microsoft.com
   - DOMAIN-SUFFIX,edgeservices.bing.com
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,ewlmaakam.staging-bing-int.com
   - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,faceswap.dev
   - DOMAIN-SUFFIX,featureassets.org
   - DOMAIN-SUFFIX,featuregates.org
   - DOMAIN-SUFFIX,firecrawl.dev
   - DOMAIN-SUFFIX,firefly.adobe.com
   - DOMAIN-SUFFIX,flow.google
-  - DOMAIN-SUFFIX,flowiseai.com
   - DOMAIN-SUFFIX,fp-us-tmobile.rcs.telephony.goog
   - DOMAIN-SUFFIX,g.co
   - DOMAIN-SUFFIX,gamma.app
@@ -271,7 +271,7 @@ payload:
   - DOMAIN-SUFFIX,googleapis.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googletagservices.com
-  - DOMAIN-SUFFIX,graphify.com
+  - DOMAIN-SUFFIX,gradio.app
   - DOMAIN-SUFFIX,grazie.ai
   - DOMAIN-SUFFIX,grazie.aws.intellij.net
   - DOMAIN-SUFFIX,grok.com
@@ -299,13 +299,14 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,interstice.cloud
   - DOMAIN-SUFFIX,iopaint.com
-  - DOMAIN-SUFFIX,jan.ai
   - DOMAIN-SUFFIX,jasper.ai
   - DOMAIN-SUFFIX,javaguide.cn
   - DOMAIN-SUFFIX,jetbrains.ai
   - DOMAIN-SUFFIX,jules.google
   - DOMAIN-SUFFIX,jules.google.com
+  - DOMAIN-SUFFIX,julialang.org
   - DOMAIN-SUFFIX,kaggle.com
+  - DOMAIN-SUFFIX,keras.io
   - DOMAIN-SUFFIX,kh.google.com
   - DOMAIN-SUFFIX,khm.google.com
   - DOMAIN-SUFFIX,khm.googleapis.com
@@ -320,6 +321,7 @@ payload:
   - DOMAIN-SUFFIX,khmdb.google.com
   - DOMAIN-SUFFIX,khmdb.googleapis.com
   - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,labml.ai
   - DOMAIN-SUFFIX,labs.google
   - DOMAIN-SUFFIX,labs.google.com
   - DOMAIN-SUFFIX,langchain.com
@@ -327,19 +329,16 @@ payload:
   - DOMAIN-SUFFIX,latest-swx.cdn.skype.com
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,leonardo.ai
-  - DOMAIN-SUFFIX,librechat.ai
   - DOMAIN-SUFFIX,live.com
   - DOMAIN-SUFFIX,livekit.cloud
   - DOMAIN-SUFFIX,livekit.io
-  - DOMAIN-SUFFIX,llama.app
   - DOMAIN-SUFFIX,lmsudio.ai
   - DOMAIN-SUFFIX,lmsys.org
-  - DOMAIN-SUFFIX,lobehub.com
   - DOMAIN-SUFFIX,localai.io
   - DOMAIN-SUFFIX,location.microsoft.com
   - DOMAIN-SUFFIX,lykos.ai
+  - DOMAIN-SUFFIX,madewithml.com
   - DOMAIN-SUFFIX,makersuite.google.com
-  - DOMAIN-SUFFIX,mem0.ai
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,microsofttranslator.com
   - DOMAIN-SUFFIX,midjourney.com
@@ -352,7 +351,7 @@ payload:
   - DOMAIN-SUFFIX,myaccount.google.com
   - DOMAIN-SUFFIX,n8n.io
   - DOMAIN-SUFFIX,nav-edge.smartscreen.microsoft.com
-  - DOMAIN-SUFFIX,nextchat.club
+  - DOMAIN-SUFFIX,netdata.cloud
   - DOMAIN-SUFFIX,notebook.google.com
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
@@ -372,9 +371,7 @@ payload:
   - DOMAIN-SUFFIX,observeit.net
   - DOMAIN-SUFFIX,ocsp.pki.goog
   - DOMAIN-SUFFIX,odc.officeapps.live.com
-  - DOMAIN-SUFFIX,ollama.com
   - DOMAIN-SUFFIX,ommer-lab.com
-  - DOMAIN-SUFFIX,omo.dev
   - DOMAIN-SUFFIX,onenote
   - DOMAIN-SUFFIX,opal.google
   - DOMAIN-SUFFIX,opal.google.com
@@ -386,14 +383,15 @@ payload:
   - DOMAIN-SUFFIX,openaicom.imgix.net
   - DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN-SUFFIX,openart.ai
+  - DOMAIN-SUFFIX,openbb.co
   - DOMAIN-SUFFIX,openclaw.ai
-  - DOMAIN-SUFFIX,openhands.dev
+  - DOMAIN-SUFFIX,opencv.org
   - DOMAIN-SUFFIX,openidconnect.googleapis.com
   - DOMAIN-SUFFIX,openmontage.video
   - DOMAIN-SUFFIX,openvino.ai
   - DOMAIN-SUFFIX,openwebui.com
-  - DOMAIN-SUFFIX,paddleocr.com
   - DOMAIN-SUFFIX,paperswithcode.com
+  - DOMAIN-SUFFIX,pathway.com
   - DOMAIN-SUFFIX,people-pa.clients6.google.com
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,perplexity.com
@@ -418,21 +416,23 @@ payload:
   - DOMAIN-SUFFIX,r.staging-bing-int.com
   - DOMAIN-SUFFIX,rafd.bing.com
   - DOMAIN-SUFFIX,rafd.staging-bing-int.com
-  - DOMAIN-SUFFIX,ragflow.io
   - DOMAIN-SUFFIX,raka.bing.com
   - DOMAIN-SUFFIX,raka.staging-bing-int.com
+  - DOMAIN-SUFFIX,ray.io
   - DOMAIN-SUFFIX,rcf.bing.com
   - DOMAIN-SUFFIX,rcf.staging-bing-int.com
+  - DOMAIN-SUFFIX,readthedocs.io
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,recraft.ai
   - DOMAIN-SUFFIX,replicate.com
   - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-  - DOMAIN-SUFFIX,rtk-ai.app
+  - DOMAIN-SUFFIX,roboflow.com
   - DOMAIN-SUFFIX,runpod.io
   - DOMAIN-SUFFIX,runway.ml
   - DOMAIN-SUFFIX,rwww.bing.com
   - DOMAIN-SUFFIX,s.cn.bing.net
   - DOMAIN-SUFFIX,safebrowsing-cache.google.com
+  - DOMAIN-SUFFIX,scikit-learn.org
   - DOMAIN-SUFFIX,searchgpt.com
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,self.events.data.microsoft.com
@@ -457,6 +457,7 @@ payload:
   - DOMAIN-SUFFIX,statsig.com
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,stitch.withgoogle.com
+  - DOMAIN-SUFFIX,streamlit.io
   - DOMAIN-SUFFIX,stripe.com
   - DOMAIN-SUFFIX,suno.ai
   - DOMAIN-SUFFIX,suno.com
@@ -465,7 +466,6 @@ payload:
   - DOMAIN-SUFFIX,swx.cdn.skype.com
   - DOMAIN-SUFFIX,sydney.bing.com
   - DOMAIN-SUFFIX,synthesia.io
-  - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tcr9i.chat.openai.com
   - DOMAIN-SUFFIX,tensorflow.org
   - DOMAIN-SUFFIX,theunwindai.com
@@ -477,6 +477,7 @@ payload:
   - DOMAIN-SUFFIX,tst.kaptcha.com
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-SUFFIX,udio.com
+  - DOMAIN-SUFFIX,ultralytics.com
   - DOMAIN-SUFFIX,unsloth.ai
   - DOMAIN-SUFFIX,usefathom.com
   - DOMAIN-SUFFIX,uservoice.com
@@ -485,7 +486,6 @@ payload:
   - DOMAIN-SUFFIX,variflight.com
   - DOMAIN-SUFFIX,vercel.com
   - DOMAIN-SUFFIX,virtualearth.net
-  - DOMAIN-SUFFIX,vllm.ai
   - DOMAIN-SUFFIX,waa-pa.clients6.google.com
   - DOMAIN-SUFFIX,watchanimeattheoffice.com
   - DOMAIN-SUFFIX,windows.net
@@ -508,6 +508,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,bing
