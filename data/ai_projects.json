@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-09-29 23:17:17",
-  "total_rules": 564,
+  "updated": "2026-09-30 23:20:36",
+  "total_rules": 565,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -208,7 +208,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20260929-231708.openai.com",
+      "debug-20260930-232030.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
@@ -362,6 +362,7 @@
       "msn.com",
       "mtalk.google.com",
       "murf.ai",
+      "muse.ai",
       "mw1.google.com",
       "myaccount.google.com",
       "n8n.io",
