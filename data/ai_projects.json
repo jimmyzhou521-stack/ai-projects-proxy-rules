@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-01 23:35:12",
-  "total_rules": 565,
+  "updated": "2026-10-02 23:27:11",
+  "total_rules": 566,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -168,6 +168,7 @@
       "clau.de",
       "claude.ai",
       "claude.com",
+      "claude.dev",
       "claudemcpclient.com",
       "claudemcpcontent.com",
       "claudeusercontent.com",
@@ -208,7 +209,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20261001-233503.openai.com",
+      "debug-20261002-232701.openai.com",
       "deeplivecam.net",
       "deepmind.com",
       "deepmind.google",
