@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-04 22:37:38",
+  "updated": "2026-10-06 01:02:55",
   "total_rules": 566,
   "sources": [
     "ACL4SSR",
@@ -209,8 +209,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20261004-223729.openai.com",
-      "deeplivecam.net",
+      "debug-20261006-010248.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -457,6 +456,7 @@
       "servd-anthropic-website.b-cdn.net",
       "services.bingapis.com",
       "settings.crashlytics.com",
+      "shadcn.com",
       "sider.ai",
       "skills.sh",
       "snrproxy.binginternal.com",
