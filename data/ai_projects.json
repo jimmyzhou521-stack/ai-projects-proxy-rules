@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-10 23:06:20",
+  "updated": "2026-10-11 23:19:17",
   "total_rules": 566,
   "sources": [
     "ACL4SSR",
@@ -209,8 +209,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "datawhale.cc",
-      "debug-20261010-230613.openai.com",
+      "debug-20261011-231908.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -439,6 +438,7 @@
       "raka.staging-bing-int.com",
       "rcf.bing.com",
       "rcf.staging-bing-int.com",
+      "rea.tools",
       "recaptcha.net",
       "recraft.ai",
       "replicate.com",
