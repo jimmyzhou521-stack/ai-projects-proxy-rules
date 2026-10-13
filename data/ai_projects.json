@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-11 23:19:17",
+  "updated": "2026-10-13 01:44:09",
   "total_rules": 566,
   "sources": [
     "ACL4SSR",
@@ -209,7 +209,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20261011-231908.openai.com",
+      "debug-20261013-014357.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -408,6 +408,7 @@
       "openvino.ai",
       "openwebui.com",
       "paddleocr.com",
+      "paperclip.ing",
       "paperswithcode.com",
       "people-pa.clients6.google.com",
       "perplexity.ai",
@@ -443,7 +444,6 @@
       "recraft.ai",
       "replicate.com",
       "robinfrontend-pa.googleapis.com",
-      "rtk-ai.app",
       "runpod.io",
       "runway.ml",
       "rwww.bing.com",
