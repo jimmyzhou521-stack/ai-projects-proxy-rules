@@ -1,5 +1,5 @@
 # AI网站代理规则 - Clash格式
-# 更新时间: 2026-10-14 22:52:43
+# 更新时间: 2026-10-15 22:47:23
 # 规则总数: 566
 # 使用方法: 将以下规则添加到Clash配置文件的rules部分
 
@@ -112,6 +112,7 @@ payload:
   - DOMAIN-SUFFIX,app-measurement.com
   - DOMAIN-SUFFIX,app-measurement.net
   - DOMAIN-SUFFIX,applicationinsights.azure.com
+  - DOMAIN-SUFFIX,archify.si
   - DOMAIN-SUFFIX,arxiv.org
   - DOMAIN-SUFFIX,assets.msn.com
   - DOMAIN-SUFFIX,auth0.com
@@ -200,7 +201,7 @@ payload:
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,dall-e.com
-  - DOMAIN-SUFFIX,debug-20261014-225233.openai.com
+  - DOMAIN-SUFFIX,debug-20261015-224715.openai.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,deepseek.com
@@ -384,7 +385,6 @@ payload:
   - DOMAIN-SUFFIX,onenote
   - DOMAIN-SUFFIX,opal.google
   - DOMAIN-SUFFIX,opal.google.com
-  - DOMAIN-SUFFIX,open-design.ai
   - DOMAIN-SUFFIX,openai-api.arkoselabs.com
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
@@ -518,6 +518,7 @@ payload:
   - DOMAIN-SUFFIX,youtube.com
   - DOMAIN-SUFFIX,yt.be
   - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,zhihu.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,antigravity
   - DOMAIN-KEYWORD,bing
@@ -525,7 +526,6 @@ payload:
   - DOMAIN-KEYWORD,claude
   - DOMAIN-KEYWORD,cohere
   - DOMAIN-KEYWORD,colab
-  - DOMAIN-KEYWORD,copilot
   - DOMAIN-KEYWORD,datadoghq
   - DOMAIN-KEYWORD,developerprofiles
   - DOMAIN-KEYWORD,edgeassetservice

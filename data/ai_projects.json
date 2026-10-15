@@ -1,7 +1,7 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-14 22:52:43",
+  "updated": "2026-10-15 22:47:23",
   "total_rules": 566,
   "sources": [
     "ACL4SSR",
@@ -120,6 +120,7 @@
       "app-measurement.com",
       "app-measurement.net",
       "applicationinsights.azure.com",
+      "archify.si",
       "arxiv.org",
       "assets.msn.com",
       "auth0.com",
@@ -208,7 +209,7 @@
       "cursor.sh",
       "cursorapi.com",
       "dall-e.com",
-      "debug-20261014-225233.openai.com",
+      "debug-20261015-224715.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -392,7 +393,6 @@
       "onenote",
       "opal.google",
       "opal.google.com",
-      "open-design.ai",
       "openai-api.arkoselabs.com",
       "openai.com",
       "openai.com.cdn.cloudflare.net",
@@ -525,7 +525,8 @@
       "youtube-nocookie.com",
       "youtube.com",
       "yt.be",
-      "ytimg.com"
+      "ytimg.com",
+      "zhihu.com"
     ],
     "domain_keywords": [
       "anthropic",
@@ -535,7 +536,6 @@
       "claude",
       "cohere",
       "colab",
-      "copilot",
       "datadoghq",
       "developerprofiles",
       "edgeassetservice",

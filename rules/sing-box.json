@@ -113,6 +113,7 @@
         "app-measurement.com",
         "app-measurement.net",
         "applicationinsights.azure.com",
+        "archify.si",
         "arxiv.org",
         "assets.msn.com",
         "auth0.com",
@@ -201,7 +202,7 @@
         "cursor.sh",
         "cursorapi.com",
         "dall-e.com",
-        "debug-20261014-225233.openai.com",
+        "debug-20261015-224715.openai.com",
         "deepmind.com",
         "deepmind.google",
         "deepseek.com",
@@ -385,7 +386,6 @@
         "onenote",
         "opal.google",
         "opal.google.com",
-        "open-design.ai",
         "openai-api.arkoselabs.com",
         "openai.com",
         "openai.com.cdn.cloudflare.net",
@@ -518,7 +518,8 @@
         "youtube-nocookie.com",
         "youtube.com",
         "yt.be",
-        "ytimg.com"
+        "ytimg.com",
+        "zhihu.com"
       ],
       "domain_keyword": [
         "anthropic",
@@ -528,7 +529,6 @@
         "claude",
         "cohere",
         "colab",
-        "copilot",
         "datadoghq",
         "developerprofiles",
         "edgeassetservice",
