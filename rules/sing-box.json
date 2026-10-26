@@ -18,6 +18,9 @@
         "antigravity.googleapis.com",
         "api.msn.com",
         "api.statsig.com",
+        "appsgenaiserver-pa.clients.google.com",
+        "appsgenaiserver-pa.clients6.google.com",
+        "appsgenaiserver-pa.googleapis.com",
         "assets.msn.com",
         "browser-intake-datadoghq.com",
         "cdn.usefathom.com",
@@ -213,7 +216,8 @@
         "cursor.sh",
         "cursorapi.com",
         "dall-e.com",
-        "debug-20261025-221048.openai.com",
+        "datawhale.cc",
+        "debug-20261026-232832.openai.com",
         "deepmind.com",
         "deepmind.google",
         "deepseek.com",
@@ -530,8 +534,7 @@
         "youtube-nocookie.com",
         "youtube.com",
         "yt.be",
-        "ytimg.com",
-        "zhihu.com"
+        "ytimg.com"
       ],
       "domain_keyword": [
         "anthropic",
