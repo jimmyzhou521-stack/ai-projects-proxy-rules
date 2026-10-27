@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-10-26 23:28:41",
-  "total_rules": 581,
+  "updated": "2026-10-27 23:22:58",
+  "total_rules": 582,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -130,6 +130,7 @@
       "archify.si",
       "arxiv.org",
       "assets.msn.com",
+      "astrbot.app",
       "auth0.com",
       "auth0.openai.com",
       "azureedge.net",
@@ -224,7 +225,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20261026-232832.openai.com",
+      "debug-20261027-232248.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
