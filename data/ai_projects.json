@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-11-05 00:39:38",
-  "total_rules": 583,
+  "updated": "2026-11-06 00:37:42",
+  "total_rules": 584,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -226,7 +226,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20261105-003928.openai.com",
+      "debug-20261106-003735.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -502,6 +502,7 @@
       "sydney.bing.com",
       "synthesia.io",
       "t.me",
+      "tauric.ai",
       "tcr9i.chat.openai.com",
       "tensorflow.org",
       "theunwindai.com",
