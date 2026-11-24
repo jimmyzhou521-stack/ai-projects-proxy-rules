@@ -1,8 +1,8 @@
 {
   "name": "AI Projects Proxy Rules",
   "description": "Auto-generated AI proxy rules from multiple sources",
-  "updated": "2026-11-23 00:32:09",
-  "total_rules": 586,
+  "updated": "2026-11-24 04:31:00",
+  "total_rules": 587,
   "sources": [
     "ACL4SSR",
     "blackmatrix7",
@@ -227,7 +227,7 @@
       "cursorapi.com",
       "dall-e.com",
       "datawhale.cc",
-      "debug-20261123-003203.openai.com",
+      "debug-20261124-043048.openai.com",
       "deepmind.com",
       "deepmind.google",
       "deepseek.com",
@@ -289,6 +289,7 @@
       "gemini.google",
       "gemini.google.com",
       "gemini.gstatic.com",
+      "gemma.ai",
       "generativeai.google",
       "generativelanguage.googleapis.com",
       "ggpht.com",
